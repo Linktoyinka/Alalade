@@ -256,7 +256,7 @@ nav {
 
 
 /* ABOUT SECTION */
-.about h2 span:last-child {
+.green {
   color: var(--green);
 }
 
