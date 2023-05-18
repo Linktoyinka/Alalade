@@ -266,8 +266,6 @@ nav {
 
 .hero .right img {
   width: 100%;
-  /* height: inherit;
-  object-fit: cover; */
 }
 
 
@@ -471,6 +469,51 @@ small {
   }
 }
 
+@media screen and (max-width: 850px) {
+  section, footer {
+    padding: 60px 9% 60px 15%;
+  }
+  
+  .header {
+    padding: 20px 9% 20px 15%;
+  }
+
+  .hero {
+    padding: 99px 9% 60px 15%;
+    align-items: unset;
+  }
+
+  .hero .right, .hero .left {
+    width: 48%;
+  }
+
+  .hero .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .menu {
+    right: 90%;
+  }
+
+  .address {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .c-card:nth-child(2) {
+    order: 1;
+  }
+
+  .c-card:nth-child(2) h6 {
+    align-items: center;
+    flex-direction: unset;
+    gap: 5px;
+  }
+}
+
 
 
 
@@ -585,12 +628,6 @@ small {
     gap: 15px;
     justify-content: center;
     align-items: center;
-  }
-
-  .c-card:nth-child(2) h6 {
-    align-items: center;
-    flex-direction: unset;
-    gap: 5px;
   }
 
   .bx-map {
