@@ -97,7 +97,7 @@ a {
 }
 
 section, footer {
-  padding: 60px 12% 60px 18%;
+  padding: 60px 14% 60px 16%;
 }
 
 
@@ -105,7 +105,7 @@ section, footer {
 .header {
   background-color: var(--black);
   /* background-color: rgb(0, 17, 255); */
-  padding: 20px 12% 20px 18%;
+  padding: 20px 14% 20px 16%;
   position: relative;
 }
 
@@ -265,7 +265,7 @@ nav {
 
 /* HERO SECTION */
 .hero {
-  padding: 99px 12% 60px 18%;
+  padding: 99px 14% 60px 16%;
   background: var(--black) url(/img/m-bg.svg);
   background-position: center;
   /* background-size: contain; */

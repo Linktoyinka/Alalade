@@ -1,14 +1,93 @@
+:root {
+  --black: #202020;
+  --white: #FFFFFF;
+  --grey: #777777;
+  --green: #10AF76;
+  --off-white: #909090;
+}
+
+p.role{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+h6, li {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+}
+
 .project-menu {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
 .header {
-    background-color: transparent;
-  }
+  background-color: transparent;
+}
 
+
+/* hero section */
 .project-hero {
-  padding: 184px 12% 60px 18%;
+  padding: 110px 10% 0px 16%;
   margin-top: -85px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-hero .left {
+  width: 55%;
+}
+
+.project-hero .right {
+  width: 40%;
+  display: flex;
+}
+
+.project-hero .right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.down {
+  margin-top: 48px;
+}
+
+.project-hero .left .down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col:first-child {
+  width: 33%;
+}
+
+.col p {
+  margin-bottom: 8px;
+}
+
+.tools {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* BG TEXT */
+.bg-text {
+  padding: 0;
+  background: #F3F3F3;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.03);
+  
+  display: grid;
+  place-content: center;
+}
+
+#text {
+  white-space: nowrap;
 }
 
 .fitpocket {
