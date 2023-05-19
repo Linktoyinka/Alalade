@@ -1,0 +1,19 @@
+.project-menu {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    background-color: transparent;
+  }
+
+.project-hero {
+  padding: 184px 12% 60px 18%;
+  margin-top: -85px;
+}
+
+.fitpocket {
+  background: url(/img/fitpocket\ bg.svg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

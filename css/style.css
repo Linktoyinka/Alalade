@@ -113,8 +113,7 @@ section, footer {
   position: absolute;
   right: 87%;
   color: aliceblue;
-  /* background-color: #2B2B2B; */
-  background-color: rgba(255, 255, 255, 0.185);
+  background-color: #2B2B2B;
 
   display: grid;
   place-content: center;
@@ -213,6 +212,38 @@ nav {
   color: var(--white);
   font-size: 30px;
   margin: 12px 0;
+  position: relative;
+}
+
+.menu-link li a::after {
+  content: "";
+  position: absolute;
+  background-color: #10af7531;
+  border-bottom: 2px solid var(--green);
+  height: 50%;
+  width: 0;
+  left: -7px;
+  bottom: -2px;
+  transition: .3s;
+  z-index: -1;
+}
+
+.menu-link li a:hover::after {
+  width: 120%;
+}
+
+/* active menu */
+.menu-link li .active::after {
+  content: "";
+  position: absolute;
+  background-color: #10af7531;
+  border-bottom: 2px solid var(--green);
+  height: 50%;
+  width: 120%;
+  left: -7px;
+  bottom: -2px;
+  transition: .3s;
+  z-index: -1;
 }
 
 .panel-link li {
@@ -243,6 +274,7 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+
 }
 
 .hero .left {
@@ -518,11 +550,11 @@ small {
 
 
 @media screen and (max-width: 650px) {
-  header {
+  /* header {
     position: sticky;
     top: 0;
     z-index: 1;
-  }
+  } */
 
   .nav-panel .top h6 {
     font-size: 14px;
@@ -577,7 +609,8 @@ small {
   .hero {
     text-align: center;
     padding: 99px 5% 0px 5%;
-    background-size: contain;
+    background-size: 130%;
+    background-position: 50% 40%;
   
     display: flex;
     align-items: flex-end;
