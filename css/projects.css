@@ -81,9 +81,16 @@ h6, li {
   background: #F3F3F3;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.03);
-  
+  font-size: 9.5vw;
+  overflow: hidden;
   display: grid;
   place-content: center;
+  /* line-height: 80px; */
+}
+
+#text {
+  /* position: ; */
+  padding-top: -200px;
 }
 
 #text {
