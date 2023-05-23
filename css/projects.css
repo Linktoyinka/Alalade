@@ -36,6 +36,12 @@ h4 {
   margin-bottom: 16px;
 }
 
+hr {
+  border-style: dashed;
+  border-width: 2px 0px 0px 0px;
+  border-color: #A4A4A4;
+}
+
 .percentage {
   font-weight: 700;
   color: #202020;
@@ -147,16 +153,15 @@ h4 {
   background: #F3F3F3;
 }
 
-.research hr {
-  border-style: dashed;
-  border-width: 2px 0px 0px 0px;
-  border-color: #A4A4A4;
-}
-
-
 /* result */
 .result {
   margin-top: 50px;
+}
+
+.result-tile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
 }
 
 .result-tile .card {
@@ -169,13 +174,17 @@ h4 {
   order: 1;
 }
 
+.result-tile .card:nth-child(2) {
+  justify-content: flex-end;
+}
+
 .result-tile .card .img {
-  width: 13%;
+  width: 15%;
   position: relative;
 }
 
 .result-tile .card .text {
-  width: 42%;
+  width: 44%;
 }
 
 .result-tile .card .img img  {
