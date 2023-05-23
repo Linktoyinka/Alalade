@@ -60,7 +60,7 @@ h4 {
 h6 {
   font-size: 16px;
   font-weight: 500;
-  font-weight: 400;
+  /* font-weight: 400; */
   line-height: 24px;
   letter-spacing: 0.75px;
   color: var(--white);
@@ -86,6 +86,10 @@ a {
 
 }
 
+.bx-arrow-back {
+  transform: rotate(180deg);
+}
+
 .pri-btn {
   border-radius: 0;
   padding: 8px 24px;
@@ -98,7 +102,7 @@ a {
 }
 
 section, footer {
-  padding: 60px 14% 60px 16%;
+  padding: 60px 14% 60px 14%;
 }
 
 
@@ -106,13 +110,13 @@ section, footer {
 .header {
   background-color: var(--black);
   /* background-color: rgb(0, 17, 255); */
-  padding: 20px 14% 20px 16%;
+  padding: 20px 14% 20px 14%;
   position: relative;
 }
 
 .menu {
   position: absolute;
-  right: 87%;
+  right: 90%;
   color: aliceblue;
   background-color: #2B2B2B;
 
@@ -248,15 +252,7 @@ nav {
 }
 
 .panel-link li {
-  background-image: url(/img/right\ arrow.svg);
-  background-repeat: no-repeat;
-  padding-left: 25px;
-  background-position: left center;
   margin: 12px 0;
-}
-
-.panel-link li i {
-  display: none;
 }
 
 .panel-link li a {  
@@ -266,7 +262,7 @@ nav {
 
 /* HERO SECTION */
 .hero {
-  padding: 99px 14% 60px 16%;
+  padding: 99px 14% 60px 14%;
   background: var(--black) url(/img/m-bg.svg);
   background-position: center;
   /* background-size: contain; */
@@ -585,13 +581,7 @@ small {
   }
 
   .panel-link li {
-    background: none;
-    padding-left: unset;
     margin: 12px 0;
-  }
-
-  .panel-link li i {
-    display: unset;
   }
 
 
