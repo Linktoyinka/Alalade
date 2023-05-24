@@ -367,6 +367,10 @@ p.name {
 }
 
 /* PAIN POINT */
+.pain-point {
+  margin-top: 80px;
+}
+
 .pain-tile {
   display:  flex;
   justify-content: space-between;
