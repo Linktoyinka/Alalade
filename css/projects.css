@@ -20,6 +20,13 @@ p.role{
   color: var(--white);
 }
 
+h5 {  
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--black);
+}
+
 h6, li {
   font-size: 16px;
   font-weight: 400;
@@ -357,6 +364,26 @@ p.name {
 
 .points .special-list {
   margin-left: -10px;
+}
+
+/* PAIN POINT */
+.pain-tile {
+  display:  flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.pain-tile .card {
+  width: 30%;
+}
+
+.pain-tile .card h5:first-child {
+  margin-bottom: 16px;
+}
+
+.pain-tile .card h5:nth-child(3) {
+  margin: 8px 0;
+  color: #558C35;
 }
 
 
