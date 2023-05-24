@@ -316,21 +316,21 @@ p.name {
   color: var(--black);
 }
 
-.profile {
+.profile-sub {
   margin: 80px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.profile .left {
+.profile-sub .left {
   width: 59%;
 }
 
-.profile .right {
+.profile-sub .right {
   width: 38%;
 }
 
-.profile .right img {
+.profile-sub .right img {
   width: 100%;
 }
 
@@ -348,10 +348,11 @@ p.name {
 .points {
   margin-top: 40px;
   display: flex;
+  justify-content: space-between;
 }
 
 .points>* {
-  width: 50%;
+  width: 48%;
 }
 
 .points .special-list {
