@@ -49,6 +49,53 @@ hr {
   border-color: #A4A4A4;
 }
 
+/* single image div */
+.single-image img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+/* double images div */
+.double-image {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.double-image>* {
+  width: 49%;
+}
+
+.double-image>* img {
+  width: 100%;
+}
+
+/* four images div */
+.four-image {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.four-image>* {
+  width: 24%;
+}
+
+.four-image>* img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figcaption span {
+  color: #A4A4A4;
+  font-size: 14px;
+}
+
 .percentage {
   font-weight: 700;
   color: #202020;
@@ -390,6 +437,15 @@ p.name {
   color: #558C35;
 }
 
+/* IDEATION SECTION */
+.ideation {
+  background: #F3F3F3;
+  margin-top: -130px;
+}
+
+.tab {
+  margin: 80px 0;
+}
 
 
 
