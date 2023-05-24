@@ -233,16 +233,16 @@ hr {
   border-radius: 24px;
 }
 
-.map-tile .card ul li::marker {
+.special-list li::marker {
   color: #558C35;
   font-size: 20px;
 }
 
-.map-tile .card ul {
+.special-list {
   margin-left: 10px;
 }
 
-.map-tile .card ul li {
+.special-list li {
   color: var(--black);
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -297,6 +297,66 @@ hr.up {
   object-fit: contain;
 }
 
+/* PERSONA */
+p.name {  
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 75px;
+}
+
+.detail {
+  color: #A4A4A4;
+}
+
+.bio-detail {
+  color: var(--black);
+}
+
+.black {
+  color: var(--black);
+}
+
+.profile {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile .left {
+  width: 59%;
+}
+
+.profile .right {
+  width: 38%;
+}
+
+.profile .right img {
+  width: 100%;
+}
+
+.bio {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.bio .card {
+  width: 40%;
+}
+
+.points {
+  margin-top: 40px;
+  display: flex;
+}
+
+.points>* {
+  width: 50%;
+}
+
+.points .special-list {
+  margin-left: -10px;
+}
 
 
 
