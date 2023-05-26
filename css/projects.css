@@ -442,7 +442,7 @@ p.name {
 }
 
 /* IDEATION SECTION */
-.ideation, .useability, .high-fidelity {
+.ideation, .usability, .high-fidelity {
   background: #F3F3F3;
   margin-top: -130px;
 }
@@ -451,17 +451,17 @@ p.name {
   margin: 80px 0;
 }
 
-/* USEABILITY SECTION */
-.useablitlty-tile {
+/* USABILITY SECTION */
+.usablitlty-tile {
   display: flex;
   justify-content: space-between;
 }
 
-.useablitlty-tile>* {
+.usablitlty-tile>* {
   width: 48%;
 }
 
-.useablitlty-tile>* .double-image p {
+.usablitlty-tile>* .double-image p {
   text-align: center;
   font-weight: 700;
 }
@@ -475,7 +475,7 @@ p.name {
 .shadow {  
   border: 8px solid black;
   border-radius: 10px;
-  box-shadow: 10px 20px 0 2px rgba(0, 0, 0, 0.103);
+  box-shadow: 10px 20px 22px 3px rgba(0, 0, 0, 0.308);
 }
 
 .image-tile {
