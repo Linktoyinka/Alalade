@@ -442,7 +442,7 @@ p.name {
 }
 
 /* IDEATION SECTION */
-.ideation, .useability {
+.ideation, .useability, .high-fidelity {
   background: #F3F3F3;
   margin-top: -130px;
 }
@@ -464,6 +464,31 @@ p.name {
 .useablitlty-tile>* .double-image p {
   text-align: center;
   font-weight: 700;
+}
+
+/* high-fidelity */
+/* .high-fidelity .double-image>* {
+  border: 8px solid black;
+  border-radius: 10px; */
+/* } */
+
+.shadow {  
+  border: 8px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 20px 0 2px rgba(0, 0, 0, 0.103);
+}
+
+.image-tile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-column {
+  width: 55%;
+}
+
+.second-column {
+  width: 40%;
 }
 
 
