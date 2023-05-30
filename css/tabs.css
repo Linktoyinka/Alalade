@@ -17,10 +17,10 @@
     top: 0; */
     
     position: sticky;
-    top: 10px;
+    top: 70px;
     /* background-color: #f1f1f1; */
     /* padding: 10px; */
-    z-index: 999;
+    z-index: 1;
 }
 
 .tabs button {

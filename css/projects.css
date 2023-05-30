@@ -114,6 +114,11 @@ figcaption span {
   background-color: transparent;
 }
 
+.header-scroll {
+  background-color: var(--black);
+  transition: 1s;
+}
+
 
 /* hero section */
 .project-hero {
