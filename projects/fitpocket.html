@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/tabs.css" />
     <link rel="stylesheet" href="../css/boxicons.min.css" />
     <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
     <title>FitPocket | Daniel Alalade</title>
@@ -169,561 +170,601 @@
 
     <section class="research">
       <h2 class="header-about">
-        The Brief
+        User Research
       </h2>
 
-      <h4>
-        About FitPocket
-      </h4>
 
-      <p>
-        I conducted a survey of 30 participants to gather information about <span class="break">their needs, current financial literacy knowledge and their</span> learning preferences.
-      </p>
-
-      <hr>
-
-      <div class="result">
-        <h4>
-          About FitPocket
-        </h4>
-
-        <div class="result-tile">
-
-          <div class="card">
-            <div class="img">
-              <img src="../img/chart 3.webp" alt="chart">
-              <div class="percent">
-                <h4 class="percentage">
-                  70%
-                </h4>
-              </div>
-            </div>
-
-            <div class="text">
-              <h6>
-                70% of the surveyed participants reported a lack of understanding of basic financial literacy concepts, such as budgeting and saving.
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img">
-              <img src="../img/chart 4.webp" alt="chart">
-              <div class="percent">
-                <h4 class="percentage">
-                  60%
-                </h4>
-              </div>
-            </div>
-
-            <div class="text">
-              <h6>
-                The preferred method of learning for most participants (60%) was through interactive and engaging content, such as games and quizzes.
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="img">
-              <img src="../img/chart 2.webp" alt="chart">
-              <div class="percent">
-                <h4 class="percentage">
-                  30%
-                </h4>
-              </div>
-            </div>
-
-            <div class="text">
-              <h6>
-                Only about 30% of respondents have used a financial literacy app or service before. Respondents appreciated the ability to track their spending and set budgets but reported dissatisfaction with the lack of personalized advice and guidance.
-              </h6>
-            </div>
-          </div>
-
+      <div id="tabContainer1" class="tabs">
+        <div class="tabs-btn">
+          <button class="tab-btn active" data-tab="tab1">Survey</button>
+          <button class="tab-btn" data-tab="tab2">Interviews</button>
+          <button class="tab-btn" data-tab="tab3">Empathy Map</button>
+          <button class="tab-btn" data-tab="tab4">Personas</button>
+          <button class="tab-btn" data-tab="tab5">Pain Points</button>
         </div>
+    
 
-        <h4>
-          Interviews
-        </h4>
-  
-        <p class="width">
-          I interviewed 5 participants representative of the target demography to gather in-depth information about their learning experiences and challenges with financial literacy.
-        </p>
-      </div>
-      <hr>
-
-      <div class="faqs">
-        <h6>
-          Some of the questions asked during the interview include:
-        </h6>
-
-        <div class="faqs-tile">
-          <div class="card">
-            <h6>
-              Can you tell me about your current understanding of financial literacy concepts?
-            </h6>
+        <!-- SURVEY -->
+        <div id="tab1" class="tab-content" style="display: block;">
+          <div class="result">
+            <h4>
+              Survey
+            </h4>
           </div>
-
-          <div class="card">
-            <h6>
-              Have you used any financial literacy resources in the past? If so, what were your experiences with them?
-            </h6>
-          </div>
-
-          <div class="card">
-            <h6>
-              What are the biggest challenges you face when it comes to financial literacy?
-            </h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="empathy">
-        <h4>
-          Aggregated Empathy Map
-        </h4>
-
-        <div class="map">
-
-          <div class="map-tile">
-            
-            <div class="card">
-              <h4>
-                Says
-              </h4>
-
-              <ul class="special-list">
-                <li>
-                  "I don't really know much about finances."
-                </li>
-
-                <li>
-                  "I would love to learn more about finances, but it all seems so confusing."
-                </li>
-
-                <li>
-                  "I like when things are explained in an interactive way, it helps me understand better."
-                </li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h4>
-                Thinks
-              </h4>
-
-              <ul class="special-list">
-                <li>
-                  Needs a structured class to learn about financial literacy.
-                </li>
-
-                <li>
-                  Text heavy information sources are a waste of time.
-                </li>
-              </ul>
-            </div>
-          </div>
-
+    
+          <p>
+            I conducted a survey of 30 participants to gather information about <span class="break">their needs, current financial literacy knowledge and their</span> learning preferences.
+          </p>
+    
           <hr>
-          <hr class="up">
-
-          <div class="map-tile">
-            
-            <div class="card">
-              <h4>
-                Does
-              </h4>
-
-              <ul class="special-list">
-                <li>
-                  Try to save and budget, but struggle.
-                </li>
-
-                <li>
-                  Ask for financial advice from friends and family.
-                </li>
-
-                <li>
-                  Attend online finance workshops.
-                </li>
-              </ul>
+  
+          <div class="result">
+            <h4>
+              Result
+            </h4>
+    
+            <div class="result-tile">
+    
+              <div class="card">
+                <div class="img">
+                  <img src="../img/chart 3.webp" alt="chart">
+                  <div class="percent">
+                    <h4 class="percentage">
+                      70%
+                    </h4>
+                  </div>
+                </div>
+    
+                <div class="text">
+                  <h6>
+                    70% of the surveyed participants reported a lack of understanding of basic financial literacy concepts, such as budgeting and saving.
+                  </h6>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="img">
+                  <img src="../img/chart 4.webp" alt="chart">
+                  <div class="percent">
+                    <h4 class="percentage">
+                      60%
+                    </h4>
+                  </div>
+                </div>
+    
+                <div class="text">
+                  <h6>
+                    The preferred method of learning for most participants (60%) was through interactive and engaging content, such as games and quizzes.
+                  </h6>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="img">
+                  <img src="../img/chart 2.webp" alt="chart">
+                  <div class="percent">
+                    <h4 class="percentage">
+                      30%
+                    </h4>
+                  </div>
+                </div>
+    
+                <div class="text">
+                  <h6>
+                    Only about 30% of respondents have used a financial literacy app or service before. Respondents appreciated the ability to track their spending and set budgets but reported dissatisfaction with the lack of personalized advice and guidance.
+                  </h6>
+                </div>
+              </div>
+    
             </div>
-
-            <div class="card">
-              <h4>
-                Feels
-              </h4>
-
-              <ul class="special-list">
-                <li>
-                  Overwhelmed by the quantity of financial literacy resources available online.
-                </li>
-
-                <li>
-                  Confused on what is worth learning and how to get started.
-                </li>
-
-                <li>
-                  Frustrated by repeated failure in developing good financial habits.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="avatar">
-            <img src="../img/Avatar.png" alt="avatar">
           </div>
         </div>
-      </div>
 
 
-      <!-- PERSONAL -->
-      <div class="persona">
-        <h4>
-          Personas
-        </h4>
-  
-        <p class="width">
-          Based on the information gathered from the research exercises, I created 2 user personas that are representative of the target demography.
-        </p>
-
-        <div class="profile">
-          
-          <div class="profile-sub">
-            <div class="left">
-
-              <p class="name">
-                Jake <span class="break">Adams.</span>
-              </p>
-  
-              <div class="bio">
-  
-                <div class="card">
-                  <img src="../img/briefcase.svg" alt="briefcase">
-                  
-                  <h6 class="detail">
-                    Occupation
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    Research Assistant
-                  </h6>
-  
-                </div>
-  
-                <div class="card">
-                  <img src="../img/location.svg" alt="location">
-  
-                  <h6 class="detail">
-                    Location
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    New York, USA
-                  </h6>
-  
-                </div>
-  
-                <div class="card">
-                  <img src="../img/person.svg" alt="person">
-  
-                  <h6 class="detail">
-                    Age
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    32
-                  </h6>
-  
-                </div>
-  
-                <div class="card">
-                  <img src="../img/home.svg" alt="home">
-  
-                  <h6 class="detail">
-                    Family
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    Married (no children)
-                  </h6>
-  
-                </div>
-  
+        <!-- INTERVIEW -->
+        <div id="tab2" class="tab-content">
+          <div class="result">
+        
+            <h4>
+              Interviews
+            </h4>
+      
+            <p class="width">
+              I interviewed 5 participants representative of the target demography to gather in-depth information about their learning experiences and challenges with financial literacy.
+            </p>
+          </div>
+          <hr>
+    
+          <div class="faqs">
+            <h6>
+              Some of the questions asked during the interview include:
+            </h6>
+    
+            <div class="faqs-tile">
+              <div class="card">
+                <h6>
+                  Can you tell me about your current understanding of financial literacy concepts?
+                </h6>
               </div>
-  
+    
+              <div class="card">
+                <h6>
+                  Have you used any financial literacy resources in the past? If so, what were your experiences with them?
+                </h6>
+              </div>
+    
+              <div class="card">
+                <h6>
+                  What are the biggest challenges you face when it comes to financial literacy?
+                </h6>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+
+        <!-- EMPATHY MAP -->
+        <div id="tab3" class="tab-content">
+          <div class="empathy">
+            <div class="result">
+              <h4>
+                Aggregated Empathy Map
+              </h4>
+            </div>
+    
+            <div class="map">
+    
+              <div class="map-tile">
+                
+                <div class="card">
+                  <h4>
+                    Says
+                  </h4>
+    
+                  <ul class="special-list">
+                    <li>
+                      "I don't really know much about finances."
+                    </li>
+    
+                    <li>
+                      "I would love to learn more about finances, but it all seems so confusing."
+                    </li>
+    
+                    <li>
+                      "I like when things are explained in an interactive way, it helps me understand better."
+                    </li>
+                  </ul>
+                </div>
+    
+                <div class="card">
+                  <h4>
+                    Thinks
+                  </h4>
+    
+                  <ul class="special-list">
+                    <li>
+                      Needs a structured class to learn about financial literacy.
+                    </li>
+    
+                    <li>
+                      Text heavy information sources are a waste of time.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <hr>
+              <hr class="up">
+    
+              <div class="map-tile">
+                
+                <div class="card">
+                  <h4>
+                    Does
+                  </h4>
+    
+                  <ul class="special-list">
+                    <li>
+                      Try to save and budget, but struggle.
+                    </li>
+    
+                    <li>
+                      Ask for financial advice from friends and family.
+                    </li>
+    
+                    <li>
+                      Attend online finance workshops.
+                    </li>
+                  </ul>
+                </div>
+    
+                <div class="card">
+                  <h4>
+                    Feels
+                  </h4>
+    
+                  <ul class="special-list">
+                    <li>
+                      Overwhelmed by the quantity of financial literacy resources available online.
+                    </li>
+    
+                    <li>
+                      Confused on what is worth learning and how to get started.
+                    </li>
+    
+                    <li>
+                      Frustrated by repeated failure in developing good financial habits.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="avatar">
+                <img src="../img/Avatar.png" alt="avatar">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- PERSONA -->
+        <div id="tab4" class="tab-content">
+          <div class="persona">
+            <div class="result">
+              <h4>
+                Personas
+              </h4>
+            </div>
+      
+            <p class="width">
+              Based on the information gathered from the research exercises, I created 2 user personas that are representative of the target demography.
+            </p>
+    
+            <div class="profile">
+              
+              <div class="profile-sub">
+                <div class="left">
+    
+                  <p class="name">
+                    Jake <span class="break">Adams.</span>
+                  </p>
+      
+                  <div class="bio">
+      
+                    <div class="card">
+                      <img src="../img/briefcase.svg" alt="briefcase">
+                      
+                      <h6 class="detail">
+                        Occupation
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        Research Assistant
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/location.svg" alt="location">
+      
+                      <h6 class="detail">
+                        Location
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        New York, USA
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/person.svg" alt="person">
+      
+                      <h6 class="detail">
+                        Age
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        32
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/home.svg" alt="home">
+      
+                      <h6 class="detail">
+                        Family
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        Married (no children)
+                      </h6>
+      
+                    </div>
+      
+                  </div>
+      
+                  <h4 class="black">
+                    Problem Statement
+                  </h4>
+            
+                  <h6 class="black">
+                    Jake is a working student who needs to improve his financial literacy, because he wants a financially comfortable life for his family
+                  </h6>
+                </div>
+      
+                <div class="right">
+                  <img src="../img/jake.webp" alt="jake">
+                </div>
+              </div>
+    
               <h4 class="black">
-                Problem Statement
+                Biography
               </h4>
         
               <h6 class="black">
-                Jake is a working student who needs to improve his financial literacy, because he wants a financially comfortable life for his family
+                Jake is a postgraduate student running his Doctorate program and working as a research assistant. He has basic financial literacy knowledge but is struggling to save money and maintain a budget. Jake is looking for resources that can provide personalized budgeting tools and tips on how to save money effectively. He is a busy person and appreciates resources that are concise and easy to use.
               </h6>
-            </div>
-  
-            <div class="right">
-              <img src="../img/jake.webp" alt="jake">
-            </div>
-          </div>
-
-          <h4 class="black">
-            Biography
-          </h4>
-    
-          <h6 class="black">
-            Jake is a postgraduate student running his Doctorate program and working as a research assistant. He has basic financial literacy knowledge but is struggling to save money and maintain a budget. Jake is looking for resources that can provide personalized budgeting tools and tips on how to save money effectively. He is a busy person and appreciates resources that are concise and easy to use.
-          </h6>
-  
-          <div class="points">
-  
-            <div class="left">
-              <h4 class="black">
-                Goals
-              </h4>
-  
-              <ul class="special-list">
-                <li>
-                  Develop effective saving habits.
-                </li>
-  
-                <li>
-                  Improve budgeting skill.
-                </li>
-  
-                <li>
-                  Give his wife the best life has to offer.
-                </li>
-              </ul>
-            </div>
-  
-            <div class="right">
-  
-              <h4 class="black">
-                Frustrations
-              </h4>
-  
-              <ul class="special-list">
-                <li>
-                  Struggling to save money and maintain a budget.
-                </li>
-  
-                <li>
-                  Difficulty finding resources that are personalized and effective.
-                </li>
-  
-                <li>
-                  Limited time to devote to financial literacy due to work and other responsibilities.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="profile">
-          
-          <div class="profile-sub">
-            <div class="left">
-
-              <p class="name">
-                Emily <span class="break">Kolawole.</span>
-              </p>
-  
-              <div class="bio">
-  
-                <div class="card">
-                  <img src="../img/briefcase.svg" alt="briefcase">
-                  
-                  <h6 class="detail">
-                    Occupation
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    Office Secretary
-                  </h6>
-  
+      
+              <div class="points">
+      
+                <div class="left">
+                  <h4 class="black">
+                    Goals
+                  </h4>
+      
+                  <ul class="special-list">
+                    <li>
+                      Develop effective saving habits.
+                    </li>
+      
+                    <li>
+                      Improve budgeting skill.
+                    </li>
+      
+                    <li>
+                      Give his wife the best life has to offer.
+                    </li>
+                  </ul>
                 </div>
-  
-                <div class="card">
-                  <img src="../img/location.svg" alt="location">
-  
-                  <h6 class="detail">
-                    Location
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    Lagos, Nigeria
-                  </h6>
-  
+      
+                <div class="right">
+      
+                  <h4 class="black">
+                    Frustrations
+                  </h4>
+      
+                  <ul class="special-list">
+                    <li>
+                      Struggling to save money and maintain a budget.
+                    </li>
+      
+                    <li>
+                      Difficulty finding resources that are personalized and effective.
+                    </li>
+      
+                    <li>
+                      Limited time to devote to financial literacy due to work and other responsibilities.
+                    </li>
+                  </ul>
                 </div>
-  
-                <div class="card">
-                  <img src="../img/person.svg" alt="person">
-  
-                  <h6 class="detail">
-                    Age
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    24
-                  </h6>
-  
-                </div>
-  
-                <div class="card">
-                  <img src="../img/home.svg" alt="home">
-  
-                  <h6 class="detail">
-                    Family
-                  </h6>
-  
-                  <h6 class="bio-detail">
-                    Lives with parents
-                  </h6>
-  
-                </div>
-  
               </div>
-  
+    
+            </div>
+    
+            <div class="profile">
+              
+              <div class="profile-sub">
+                <div class="left">
+    
+                  <p class="name">
+                    Emily <span class="break">Kolawole.</span>
+                  </p>
+      
+                  <div class="bio">
+      
+                    <div class="card">
+                      <img src="../img/briefcase.svg" alt="briefcase">
+                      
+                      <h6 class="detail">
+                        Occupation
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        Office Secretary
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/location.svg" alt="location">
+      
+                      <h6 class="detail">
+                        Location
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        Lagos, Nigeria
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/person.svg" alt="person">
+      
+                      <h6 class="detail">
+                        Age
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        24
+                      </h6>
+      
+                    </div>
+      
+                    <div class="card">
+                      <img src="../img/home.svg" alt="home">
+      
+                      <h6 class="detail">
+                        Family
+                      </h6>
+      
+                      <h6 class="bio-detail">
+                        Lives with parents
+                      </h6>
+      
+                    </div>
+      
+                  </div>
+      
+                  <h4 class="black">
+                    Problem Statement
+                  </h4>
+            
+                  <h6 class="black">
+                    Emily is a recent graduate with student loan debt who needs a comprehensive financial literacy education platform because she wants to manage her finances effectively but finds it challenging to navigate the complex financial landscape on her own.
+                  </h6>
+                </div>
+      
+                <div class="right">
+                  <img src="../img/emily.webp" alt="emily">
+                </div>
+              </div>
+    
               <h4 class="black">
-                Problem Statement
+                Biography
               </h4>
         
               <h6 class="black">
-                Emily is a recent graduate with student loan debt who needs a comprehensive financial literacy education platform because she wants to manage her finances effectively but finds it challenging to navigate the complex financial landscape on her own.
+                Emily is a university graduate who recently started her first job. She has limited knowledge of financial literacy and is struggling to manage her finances. She is feeling overwhelmed by the amount of information available and is in search of a resource that can provide her with a comprehensive understanding of financial literacy in a way that is easy to understand. Emily is a visual learner and appreciates resources that incorporate interactive elements and visuals.
               </h6>
-            </div>
-  
-            <div class="right">
-              <img src="../img/emily.webp" alt="emily">
-            </div>
-          </div>
-
-          <h4 class="black">
-            Biography
-          </h4>
+      
+              <div class="points">
+      
+                <div class="left">
+                  <h4 class="black">
+                    Goals
+                  </h4>
+      
+                  <ul class="special-list">
+                    <li>
+                      Have enough money to go on a vacation outside the country.
+                    </li>
+      
+                    <li>
+                      Live a comfortable life free from worries about money.
+                    </li>
+      
+                    <li>
+                      Give his wife the best life has to offer.
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="right">
+      
+                  <h4 class="black">
+                    Frustrations
+                  </h4>
+      
+                  <ul class="special-list">
+                    <li>
+                      Overwhelmed by the amount of unstructured financial information available online.
+                    </li>
+      
+                    <li>
+                      “Every month I try to create a budget because it seems like my salary disappears quickly, but I always fail.”
+                    </li>
+      
+                    <li>
+                      Used ineffective financial literacy resources in the past.
+                    </li>
+                  </ul>
+                </div>
+              </div>
     
-          <h6 class="black">
-            Emily is a university graduate who recently started her first job. She has limited knowledge of financial literacy and is struggling to manage her finances. She is feeling overwhelmed by the amount of information available and is in search of a resource that can provide her with a comprehensive understanding of financial literacy in a way that is easy to understand. Emily is a visual learner and appreciates resources that incorporate interactive elements and visuals.
-          </h6>
-  
-          <div class="points">
-  
-            <div class="left">
-              <h4 class="black">
-                Goals
-              </h4>
-  
-              <ul class="special-list">
-                <li>
-                  Have enough money to go on a vacation outside the country.
-                </li>
-  
-                <li>
-                  Live a comfortable life free from worries about money.
-                </li>
-  
-                <li>
-                  Give his wife the best life has to offer.
-                </li>
-              </ul>
             </div>
-  
-            <div class="right">
-  
-              <h4 class="black">
-                Frustrations
-              </h4>
-  
-              <ul class="special-list">
-                <li>
-                  Overwhelmed by the amount of unstructured financial information available online.
-                </li>
-  
-                <li>
-                  “Every month I try to create a budget because it seems like my salary disappears quickly, but I always fail.”
-                </li>
-  
-                <li>
-                  Used ineffective financial literacy resources in the past.
-                </li>
-              </ul>
-            </div>
+    
+            
           </div>
-
         </div>
 
-        
-      </div>
 
-      <!-- PAIN POINT -->
-      <div class="pain-point">
-        <h4>
-          Pain Points
-        </h4>
-
-        <p class="width">
-          The insights we have gathered can be summarized into three main pain points.
-        </p>
-
-
-        <div class="pain-tile">
-          <div class="card">
-            <h5>
-              Structure
-            </h5>
-            
-            <h6 class="black">
-              The amount of information available on financial literacy resources is overwhelming.
-            </h6>
-
-            <h5>
-              Solution
-            </h5>
-
-            <h6 class="black">
-              Provide curated and organized information to ensure users are not overwhelmed. Include features that allow users to save and revisit information at a later time.
-            </h6>
+        <!-- PAIN POINT -->
+        <div id="tab5" class="tab-content">
+          <div class="pain-point">
+            <h4>
+              Pain Points
+            </h4>
+    
+            <p class="width">
+              The insights we have gathered can be summarized into three main pain points.
+            </p>
+    
+    
+            <div class="pain-tile">
+              <div class="card">
+                <h5>
+                  Structure
+                </h5>
+                
+                <h6 class="black">
+                  The amount of information available on financial literacy resources is overwhelming.
+                </h6>
+    
+                <h5>
+                  Solution
+                </h5>
+    
+                <h6 class="black">
+                  Provide curated and organized information to ensure users are not overwhelmed. Include features that allow users to save and revisit information at a later time.
+                </h6>
+              </div>
+    
+              <div class="card">
+                <h5>
+                  Quality
+                </h5>
+                
+                <h6 class="black">
+                  A lot of financial literacy resources are ineffective and difficult to understand.
+                </h6>
+    
+                <h5>
+                  Solution
+                </h5>
+    
+                <h6 class="black">
+                  Provide a gamified experience, making learning enjoyable and increasing engagement. Also, conduct user testing and gather feedback to continuously improve effectiveness.
+                </h6>
+              </div>
+    
+              <div class="card">
+                <h5>
+                  Implementation
+                </h5>
+                
+                <h6 class="black">
+                  Users find it difficult to implement the saving and budgeting knowledge gained from learning resources.
+                </h6>
+    
+                <h5>
+                  Solution
+                </h5>
+    
+                <h6 class="black">
+                  Provide personalized saving and budgeting tools to help users implement their newly acquired knowledge.
+                </h6>
+              </div>
+    
+            </div>
           </div>
-
-          <div class="card">
-            <h5>
-              Quality
-            </h5>
-            
-            <h6 class="black">
-              A lot of financial literacy resources are ineffective and difficult to understand.
-            </h6>
-
-            <h5>
-              Solution
-            </h5>
-
-            <h6 class="black">
-              Provide a gamified experience, making learning enjoyable and increasing engagement. Also, conduct user testing and gather feedback to continuously improve effectiveness.
-            </h6>
-          </div>
-
-          <div class="card">
-            <h5>
-              Implementation
-            </h5>
-            
-            <h6 class="black">
-              Users find it difficult to implement the saving and budgeting knowledge gained from learning resources.
-            </h6>
-
-            <h5>
-              Solution
-            </h5>
-
-            <h6 class="black">
-              Provide personalized saving and budgeting tools to help users implement their newly acquired knowledge.
-            </h6>
-          </div>
-
         </div>
       </div>
+
+
+      
     </section>
     
     <section class="bg-text" id="bg-text">
@@ -737,79 +778,108 @@
         Ideation
       </h2>
 
-      <div class="crazy-eight">
-        <h4>
-          Crazy-Eights Exercise
-        </h4>
-  
-        <p class="width">
-          To address user pain points, I brainstormed multiple solutions using the "crazy-eights" exercise, sketching out eight concepts in eight minutes to identify and select the most effective ideas.
-        </p>
-  
-        <div class="single-image">
-          <img src="../img/Ideation card.webp" alt="ideation card">
+      
+      <div id="tabContainer2" class="tabs">
+        <div class="tabs-btn">
+          <button class="tab-btn active" data-tab="tab6">Crazy-Eights</button>
+          <button class="tab-btn" data-tab="tab7">User Flow</button>
+          <button class="tab-btn" data-tab="tab8">Wireframes</button>
         </div>
-      </div>
+    
 
-      <div class="tab user-flow">
-        <h4>
-          User Flow
-        </h4>
-  
-        <p class="width">
-          I made three diagrams to understand how users interact with the application. These helped me analyze and visualize the different steps involved in navigating it.
-        </p>
-  
-        <figure class="single-image">
-          <img src="../img/user-flow.webp" alt="user Flow">
-          <figcaption>
-            <h5>
-              Learning User Flow (Primary)
-            </h5><br>
-            <span>
-              N/B:: The other two flows user flows diagrams are for saving and budgeting tasks. There are not shown to reduce document length.
-            </span>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="tab wireframes">
-        <h4>
-          Wireframes
-        </h4>
-  
-        <p class="width">
-          I created paper wireframes, digitized them to show user flows, and built a low-fidelity prototype for testing before proceeding with high-fidelity mockups.
-        </p>
-
-        <div class="double-image">
-          <div class="image-1">
-            <img src="../img/fitpocket wireframe 1.webp" alt="fitpocket wireframe">
-          </div>
-
-          <div class="image-2">
-            <img src="../img/fitpocket wireframe 1.webp" alt="fitpocket wireframe">
+        <!-- CRAZY EIGHTS -->
+        <div id="tab6" class="tab-content" style="display: block;">
+          <div class="crazy-eight">
+            <div class="result">
+              <h4>
+                Crazy-Eights Exercise
+              </h4>
+            </div>
+      
+            <p class="width">
+              To address user pain points, I brainstormed multiple solutions using the "crazy-eights" exercise, sketching out eight concepts in eight minutes to identify and select the most effective ideas.
+            </p>
+      
+            <div class="single-image">
+              <img src="../img/Ideation card.webp" alt="ideation card">
+            </div>
           </div>
         </div>
-  
-        <div class="four-image">
-          <div class="image-1">
-            <img src="../img/Home Screen 1.webp" alt="home Screen">
-          </div>
 
-          <div class="image-2">
-            <img src="../img/Home Screen 2.webp" alt="home Screen">
-          </div>
 
-          <div class="image-3">
-            <img src="../img/Home Screen 3.webp" alt="home Screen">
-          </div>
-
-          <div class="image-4">
-            <img src="../img/Home Screen 4.webp" alt="home Screen">
+        <!-- USER FLOW -->
+        <div id="tab7" class="tab-content">
+          <div class="tab user-flow">
+            <div class="result">
+              <h4>
+                User Flow
+              </h4>
+            </div>
+      
+            <p class="width">
+              I made three diagrams to understand how users interact with the application. These helped me analyze and visualize the different steps involved in navigating it.
+            </p>
+      
+            <figure class="single-image">
+              <img src="../img/user-flow.webp" alt="user Flow">
+              <figcaption>
+                <h5>
+                  Learning User Flow (Primary)
+                </h5><br>
+                <span>
+                  N/B:: The other two flows user flows diagrams are for saving and budgeting tasks. There are not shown to reduce document length.
+                </span>
+              </figcaption>
+            </figure>
           </div>
         </div>
+
+
+        <!-- WIREFRAMES -->
+        <div id="tab8" class="tab-content">
+          <div class="tab wireframes">
+            <div class="result">
+              <h4>
+                Wireframes
+              </h4>
+            </div>
+      
+            <p class="width">
+              I created paper wireframes, digitized them to show user flows, and built a low-fidelity prototype for testing before proceeding with high-fidelity mockups.
+            </p>
+    
+            <div class="double-image">
+              <div class="image-1">
+                <img src="../img/fitpocket wireframe 1.webp" alt="fitpocket wireframe">
+              </div>
+    
+              <div class="image-2">
+                <img src="../img/fitpocket wireframe 1.webp" alt="fitpocket wireframe">
+              </div>
+            </div>
+      
+            <div class="four-image">
+              <div class="image-1">
+                <img src="../img/Home Screen 1.webp" alt="home Screen">
+              </div>
+    
+              <div class="image-2">
+                <img src="../img/Home Screen 2.webp" alt="home Screen">
+              </div>
+    
+              <div class="image-3">
+                <img src="../img/Home Screen 3.webp" alt="home Screen">
+              </div>
+    
+              <div class="image-4">
+                <img src="../img/Home Screen 4.webp" alt="home Screen">
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
+
     </section>
 
     <section class="bg-text" id="bg-text">
@@ -1334,4 +1404,5 @@
         
   </body>
   <script src="../js/app.js"></script>
+  <script src="../js/tabs.js"></script>
 </html>
