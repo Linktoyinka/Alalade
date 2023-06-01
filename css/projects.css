@@ -500,6 +500,119 @@ p.name {
 
 
 
+@media screen and (max-width: 650px) {
+  a {
+    font-size: 16px;
+  }
+
+  .width {
+    width: 100%;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .project-hero {
+    padding: 110px 10% 0px 14%;
+    margin-top: -85px;
+    /* text-align: center; */
+    flex-wrap: wrap;
+  }
+
+  .project-hero .left, .project-hero .right {
+    width: 100%;
+  }
+
+  .project-hero .left .down {
+    flex-wrap: wrap;
+    gap: 24px;    
+    justify-content: center;
+  }
+
+  .project-hero .left .down>* {
+    width: 100%;
+  }
+
+  /* brief section */
+  .brief {
+    padding: 0px 5% 60px 5%;
+    flex-wrap: wrap;
+  }
+  
+  .brief .left, .brief .right {
+    width: 100%;
+  }
+
+  .result-tile {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .result-tile .card {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .result-tile .card:nth-child(2) .img {
+    order: unset;
+  }
+  
+  .result-tile .card .img {
+    width: 100%;
+    position: relative;
+  }
+  
+  .result-tile .card .text {
+    width: 100%;
+  }
+  
+  .result-tile .card .img img  {
+    width: 40%;
+  }
+
+  .faqs-tile {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .faqs-tile .card {
+    width: 100%;
+  }
+
+  /* empathy section */
+  .map {
+    position: unset;
+    margin: 24px 0 80px 0;
+  }
+  
+  .avatar {
+    position: unset;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+
+  .map-tile {
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  
+  .map-tile .card {
+    width: 100%;
+  }
+  
+  .map hr, hr.up {
+    display: none;
+  }
+}
+
+
+
+
+
 
 
 
