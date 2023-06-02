@@ -841,7 +841,7 @@ small {
 
 
 /* SCROLL BAR */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
   background-color: var(--black);
 }
@@ -857,4 +857,4 @@ small {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #44494b;
-}
+} */

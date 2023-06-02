@@ -778,4 +778,9 @@ p.name {
   /* writing-mode: vertical-rl */
 }
 
+.header-scroll {
+  background-color: var(--black);
+  transition: 1s;
+}
+
 
