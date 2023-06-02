@@ -509,14 +509,10 @@ p.name {
     width: 100%;
   }
 
-  body {
-    text-align: center;
-  }
-
   .project-hero {
     padding: 110px 10% 0px 14%;
     margin-top: -85px;
-    /* text-align: center; */
+    text-align: center;
     flex-wrap: wrap;
   }
 
@@ -561,6 +557,7 @@ p.name {
   .result-tile .card .img {
     width: 100%;
     position: relative;
+    text-align: center;
   }
   
   .result-tile .card .text {
@@ -606,6 +603,61 @@ p.name {
   
   .map hr, hr.up {
     display: none;
+  }
+
+  /* persona */
+  .profile-sub {
+    flex-wrap: wrap;
+    margin: 80px 0 20px 0;
+  }
+  
+  .profile-sub .left {
+    width: 100%;
+    order: 2;
+  }
+  
+  .profile-sub .right {
+    width: 100%;
+  }
+  
+  .profile-sub .right img {
+    width: 40%;
+  }
+
+  p.name {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+
+  .bio {
+    gap: 10px;
+    margin: 24px 0;
+  }
+
+  .bio .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  .detail {
+    display: none;
+  }
+
+  .points {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .points>* {
+    width: 100%;
+  }
+
+  .points .special-list {
+    margin-left: 10px;
   }
 }
 
