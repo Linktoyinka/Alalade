@@ -226,6 +226,7 @@ figcaption span {
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
+  gap: 20px;
 }
 
 .result-tile .card {
@@ -446,6 +447,10 @@ p.name {
   color: #558C35;
 }
 
+.line {
+  border-left: 2px dashed #A4A4A4;
+}
+
 /* IDEATION SECTION */
 .ideation, .usability, .high-fidelity {
   background: #F3F3F3;
@@ -496,13 +501,35 @@ p.name {
   width: 40%;
 }
 
+/* before footer */
+.p-footer {
+  background-color: #F3F3F3;
+  padding: 60px 5% 60px 5%;
+}
+
+.before-footer {
+  background: url(/img/indicator.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+}
 
 
 
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .width {
@@ -538,6 +565,35 @@ p.name {
   
   .brief .left, .brief .right {
     width: 100%;
+  }
+
+  .points .special-list {
+    margin-left: 10px;
+  }
+
+  .result-tile .card .img {
+    width: 20%;
+    position: relative;
+  }
+  
+  .result-tile .card .text {
+    width: 80%;
+  }
+
+  .shadow {  
+    border: 6px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 20px 22px 3px rgba(0, 0, 0, 0.205);
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+  a {
+    font-size: 14px;
   }
 
   .result-tile {
@@ -656,8 +712,46 @@ p.name {
     width: 100%;
   }
 
-  .points .special-list {
-    margin-left: 10px;
+
+  .pain-tile {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .pain-tile .card {
+    width: 100%;
+  }
+
+  .line {
+    width: 100%;
+    border-top: 2px dashed #A4A4A4;
+    border-left: none;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+  }
+
+
+
+  .shadow {  
+    border: 2px solid black;
+  }
+
+
+  .p-footer {
+    background-color: #F3F3F3;
+    padding: 20px 5%;
+  }
+
+  .before-footer {
+    padding: unset;
   }
 }
 
