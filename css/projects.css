@@ -527,6 +527,16 @@ p.name {
 
 
 
+.visible {
+  /* visibility: hidden; */
+}
+
+.plubo-color {
+  color: #642CA9;
+}
+
+
+
 @media screen and (max-width: 850px) {
   a {
     font-size: 14px;
@@ -778,9 +788,16 @@ p.name {
   /* writing-mode: vertical-rl */
 }
 
-.header-scroll {
-  background-color: var(--black);
-  transition: 1s;
+.plubo {
+  background: linear-gradient(91.26deg, #7236C0 -3.19%, #7B8CDE 107.16%);
 }
 
+@media screen and (max-width: 650px) {
+  .fitpocket {
+    background: url(/img/fitpocket\ mobile\ bg.svg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
