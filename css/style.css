@@ -705,7 +705,6 @@ small {
   }
 
   .hero {
-    text-align: center;
     padding: 99px 5% 0px 5%;
     background-size: 130%;
     background-position: 50% 40%;
@@ -724,13 +723,13 @@ small {
   .hero .right {
     margin-bottom: -60px;
   }
+  
+  .hero .right img {
+    width: 80%;
+  }
 
   section, footer {
     padding: 60px 5% 60px 5%;
-  }
-
-  .about {  
-    text-align: center;
   }
 
   .header-about {
