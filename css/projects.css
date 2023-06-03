@@ -132,6 +132,7 @@ figcaption span {
 
 .project-hero .left {
   width: 55%;
+  /* padding-bottom: 50px; */
 }
 
 .project-hero .right {
@@ -194,24 +195,38 @@ figcaption span {
   justify-content: space-between;
 }
 
-.brief .left {
+.brief-1 {
+  padding: 60px 5% 60px 14%;
+  background: #F3F3F3;
+  /* margin-top: -60px; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.brief .left, .brief-1 .left {
   width: 53%;
 }
 
-.brief .right {
+.brief .right, .brief-1 .right {
   width: 45%;
   text-align: center;
 }
 
-.brief .right img {
+.brief .right img, .brief-1 .right img {
   width: 100%;
 }
 
-.brief .left p {
+.brief .left p, .brief-1 .left p {
   margin-bottom: 32px;
 }
 
 /* RESEARCH SECTION */
+.row {
+  margin-top: 0px;
+  padding-top: 200px;
+}
+
 .research {  
   background: #F3F3F3;
   margin-top: -130px;
@@ -525,10 +540,8 @@ p.name {
   gap: 40px;
 }
 
-
-
-.visible {
-  /* visibility: hidden; */
+.inverted-img .first-column {
+  order: 1;
 }
 
 .plubo-color {
@@ -602,6 +615,10 @@ p.name {
 
 
 @media screen and (max-width: 650px) {
+  .row {
+    padding-top: 70px;
+  }
+
   a {
     font-size: 14px;
   }
