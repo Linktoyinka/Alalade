@@ -7,6 +7,7 @@
 
   --plubo: #642CA9;
   --kweek: #075158;
+  --make-known: #006DDC;
 }
 
 a {
@@ -129,7 +130,7 @@ figcaption span {
   padding-right: 10%;
   padding-left: 14%;
   margin-top: -85px;
-
+  height: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,6 +138,7 @@ figcaption span {
 
 .project-hero .left {
   width: 55%;
+  padding-bottom: 30px;
 }
 
 .project-hero .right {
@@ -146,6 +148,7 @@ figcaption span {
 
 .project-hero .right img {
   width: 100%;
+  height: 100%;
 }
 
 .down {
@@ -861,4 +864,22 @@ p.name {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* make known */
+.make-color {
+  color: var(--make-known);
+}
+
+.makeknown {
+  background: url(/img/makeknown\ Cover.webp);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+  .makeknown {
+    background-position: left top;
+  }
 }
