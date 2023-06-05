@@ -749,6 +749,10 @@ p.name {
     gap: 9px;
   }
 
+  .bio .card img {
+    width: 20px;
+  }
+
   .detail {
     display: none;
   }
@@ -850,6 +854,10 @@ p.name {
   color: var(--plubo);
 }
 
+ul.plubo-color li::marker {
+  color: var(--plubo);
+}
+
 /* .special-list li::marker  */
 
 
@@ -865,6 +873,12 @@ p.name {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+ul.kweek-color li::marker {
+  color: var(--kweek);
+}
+
+
 
 /* make known */
 .make-color {

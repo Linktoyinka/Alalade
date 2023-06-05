@@ -472,7 +472,7 @@ small {
 
 .outline {
   color: #F3F3F3; /* Unfortunately you can't use transparent here … */
-  text-shadow: -1px -1px 0 #909090, 1px -1px 0 #909090, -1px 1px 0 #909090, 1px 1px 0 #909090
+  text-shadow: -1px -1px 0 #909090, 1px -1px 0 #909090, -1px 1px 0 #909090, 1px 1px 0 #909090;
 }
 
 .philosophy {
@@ -814,7 +814,7 @@ small {
 
   .expertise >* {
     width: 100%;
-    
+    text-align: center;
   }
 
   .expertise-list p {
@@ -823,6 +823,10 @@ small {
 
   .bx.bx-minus {
     display: none;
+  }
+
+  .outline {
+    text-align: center;
   }
 }
 
