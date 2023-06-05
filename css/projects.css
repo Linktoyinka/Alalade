@@ -4,6 +4,9 @@
   --grey: #777777;
   --green: #10AF76;
   --off-white: #909090;
+
+  --plubo: #642CA9;
+  --kweek: #075158;
 }
 
 a {
@@ -122,7 +125,9 @@ figcaption span {
 
 /* hero section */
 .project-hero {
-  padding: 110px 10% 0px 14%;
+  padding-top: 110px;
+  padding-right: 10%;
+  padding-left: 14%;
   margin-top: -85px;
 
   display: flex;
@@ -132,7 +137,6 @@ figcaption span {
 
 .project-hero .left {
   width: 55%;
-  /* padding-bottom: 50px; */
 }
 
 .project-hero .right {
@@ -142,7 +146,6 @@ figcaption span {
 
 .project-hero .right img {
   width: 100%;
-  object-fit: cover;
 }
 
 .down {
@@ -544,9 +547,6 @@ p.name {
   order: 1;
 }
 
-.plubo-color {
-  color: #642CA9;
-}
 
 
 
@@ -560,10 +560,17 @@ p.name {
   }
 
   .project-hero {
-    padding: 110px 10% 0px 14%;
+    /* padding: 110px 5% 0px 5%; */
+    align-items: unset;
     margin-top: -85px;
     text-align: center;
     flex-wrap: wrap;
+    height: auto;
+    gap: 40px;
+
+    /* padding-top: 110px;/ */
+    padding-right: 5%;
+    padding-left: 5%;
   }
 
   .project-hero .left, .project-hero .right {
@@ -584,6 +591,10 @@ p.name {
   .brief {
     padding: 0px 5% 60px 5%;
     flex-wrap: wrap;
+  }
+
+  .brief-1 {
+    padding: 40px 5% 60px 5%;
   }
   
   .brief .left, .brief .right {
@@ -615,6 +626,16 @@ p.name {
 
 
 @media screen and (max-width: 650px) {
+  /* .project-hero {
+    padding: 110px 5% 0px 5%;
+    margin-top: -65px;
+    height: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
   .row {
     padding-top: 70px;
   }
@@ -805,9 +826,6 @@ p.name {
   /* writing-mode: vertical-rl */
 }
 
-.plubo {
-  background: linear-gradient(91.26deg, #7236C0 -3.19%, #7B8CDE 107.16%);
-}
 
 @media screen and (max-width: 650px) {
   .fitpocket {
@@ -818,3 +836,29 @@ p.name {
   }
 }
 
+/* PLUBO */
+
+
+.plubo {
+  background: linear-gradient(91.26deg, #7236C0 -3.19%, #7B8CDE 107.16%);
+}
+
+.plubo-color {
+  color: var(--plubo);
+}
+
+/* .special-list li::marker  */
+
+
+
+/* KWEEk */
+.kweek-color {
+  color: var(--kweek);
+}
+
+.kweek {
+  background: url(/img/kweek\ bg.webp);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
