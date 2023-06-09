@@ -326,6 +326,7 @@ nav {
 }
 .tile {
   display: flex;
+  max-height: 400px;
 }
 
 .tile .left {
@@ -863,3 +864,69 @@ small {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #44494b;
 } */
+
+
+
+@media screen and (min-width: 1500px) {
+  section,
+  header,
+  .footer,
+  .header {
+    /* width: 100%; */
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  section {
+    padding: 60px 140px 60px 140px;
+  }
+
+  .hero {
+    padding: 99px 140px 60px 140px;
+  
+  }
+
+  .about-hero {
+    padding: 0 140px;
+  }
+
+  .ciao {
+    font-weight: 600;
+    font-size: 2000%;
+    line-height: 64px;
+  }
+
+
+  .menu {
+    right: 90%;
+  }
+
+  .header {
+    padding: 15px 180px 15px 180px !important;
+  }
+
+  .nav-panel {
+    padding: 35px 150px;
+    max-height: 900px;
+    /* overflow: auto; */
+    direction: ltr;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .nav-panel.is-active {
+    /* right: 31.7%; */
+  }
+
+  /* .service-hero, */
+  footer,
+  header {
+    max-width: unset;
+  }
+
+  .header {
+    padding: 10px 50px;
+  }
+}

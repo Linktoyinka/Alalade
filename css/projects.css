@@ -933,3 +933,26 @@ ul.kweek-color li::marker {
 .werk-header {
   background: var(--werk);
 }
+
+@media screen and (max-width: 650px) {
+  .werk {
+    background-position: right center;
+  }
+
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1500px) {
+  .project-hero {
+    padding-right: 100px;
+    padding-left: 140px;
+  }
+
+  .brief {
+    padding: 90px 50px 60px 140px;
+  }
+}
