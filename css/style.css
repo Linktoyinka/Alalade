@@ -460,7 +460,7 @@ small {
 }
 
 .ciao {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17vw;
   line-height: 64px;
   color: var(--off-black);
@@ -801,6 +801,7 @@ small {
   
   .philosophy p {
     width: 100%;
+    text-align: center;
   }
   
   .philosophy div {

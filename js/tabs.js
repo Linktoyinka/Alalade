@@ -30,9 +30,5 @@ function createTabbedNavigation(containerId) {
 createTabbedNavigation("tabContainer1");
 createTabbedNavigation("tabContainer2");
 
-// header
-window.addEventListener("scroll", function() {
-  var header = document.querySelector("header");
-  header.classList.toggle("header-scroll", window.scrollY > 0);
-});
+
 

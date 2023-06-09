@@ -8,6 +8,8 @@
   --plubo: #642CA9;
   --kweek: #075158;
   --make-known: #006DDC;
+  --fitpocket: #558C35;
+  --werk: #2A4096;
 }
 
 a {
@@ -826,11 +828,11 @@ p.name {
 }
 
 .fitpocket-link {
-  color: #558C35;
-  /* text-rendering: optimizeLegibility; */
-  /* transform: rotate(1); */
-  /* writing-mode: horizontal-tb; */
-  /* writing-mode: vertical-rl */
+  color: var(--fitpocket);
+}
+
+.fit-header {
+  background-color: var(--fitpocket);
 }
 
 
@@ -841,6 +843,8 @@ p.name {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  
 }
 
 /* PLUBO */
@@ -848,6 +852,10 @@ p.name {
 
 .plubo {
   background: linear-gradient(91.26deg, #7236C0 -3.19%, #7B8CDE 107.16%);
+}
+
+.plubo-header {
+  background: var(--plubo);
 }
 
 .plubo-color {
@@ -874,6 +882,10 @@ ul.plubo-color li::marker {
   background-repeat: no-repeat;
 }
 
+.kweek-header {
+  background: var(--kweek);
+}
+
 ul.kweek-color li::marker {
   color: var(--kweek);
 }
@@ -892,8 +904,18 @@ ul.kweek-color li::marker {
   background-repeat: no-repeat;
 }
 
+.make-header {
+  background: var(--make-known);
+}
+
 @media screen and (max-width: 650px) {
   .makeknown {
     background-position: left top;
   }
+}
+
+
+
+.werk-header {
+  background: var(--werk);
 }

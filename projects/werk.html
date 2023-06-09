@@ -261,4 +261,11 @@
   </body>
   <script src="../js/app.js"></script>
   <script src="../js/tabs.js"></script>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("werk-header", window.scrollY > 0);
+    });
+  </script>
 </html>
