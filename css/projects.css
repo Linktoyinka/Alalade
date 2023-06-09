@@ -132,7 +132,7 @@ figcaption span {
   padding-right: 10%;
   padding-left: 14%;
   margin-top: -85px;
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -914,6 +914,20 @@ ul.kweek-color li::marker {
   }
 }
 
+
+
+/* WERK */
+.werk {
+  background: url(/img/WERK\ Cover.webp);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.werk .left>*, .werk .left .down .col>*, .werk .left .down .tools>* {
+  color: var(--black);
+}
 
 
 .werk-header {
