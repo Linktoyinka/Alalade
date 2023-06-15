@@ -806,6 +806,10 @@ small {
     order: 1;
   }
 
+  .featured {
+    padding: 90px 5% 60px 5%;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
