@@ -8,3 +8,5 @@ main_menu.addEventListener("click", function () {
   mobile_menu.classList.toggle("is-active");
   body.classList.toggle("scroll");
 });
+
+
