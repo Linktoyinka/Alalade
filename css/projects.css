@@ -847,9 +847,11 @@ p.name {
   color: var(--fitpocket);
 }
 
-.fit-header {
-  background-color: var(--fitpocket);
-}
+/* .fit-header {
+  background-color: #558c3521;  
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(10px);
+} */
 
 
 @media screen and (max-width: 650px) {

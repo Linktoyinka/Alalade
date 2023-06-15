@@ -10,3 +10,7 @@ main_menu.addEventListener("click", function () {
 });
 
 
+window.addEventListener("scroll", function() {
+  var header = document.querySelector(".header");
+  header.classList.toggle("blur-header", window.scrollY > 50);
+});
