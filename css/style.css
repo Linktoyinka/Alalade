@@ -483,6 +483,10 @@ small {
   margin-top: -35px;
 }
 
+.about-brief {  
+  padding: 80px 14% 0px 14%;
+}
+
 .outline {
   color: #F3F3F3; /* Unfortunately you can't use transparent here … */
   text-shadow: -1px -1px 0 #909090, 1px -1px 0 #909090, -1px 1px 0 #909090, 1px 1px 0 #909090;
@@ -658,6 +662,14 @@ small {
     height: 100%;
     object-fit: cover;
   }
+
+  .break {
+    display: unset;
+  }
+
+  .about-brief {  
+    padding: 70px 9% 0px 9%;
+  }
 }
 
 
@@ -677,9 +689,7 @@ small {
     margin: 8px 0 24px 0;
   }
 
-  .break {
-    display: unset;
-  }
+  
 
   .nav-panel .top h6 {
     font-size: 14px;
@@ -869,6 +879,11 @@ small {
     font-size: 45vw;
   }
 
+  .about-brief {  
+    padding: 4px 5% 0px 5%;
+    text-align: center;
+  }
+
   .philosophy {
     flex-wrap: wrap;
   }
@@ -940,7 +955,7 @@ small {
 
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
   section,
   header,
   .footer,
@@ -993,11 +1008,11 @@ small {
 
   }
 
-  .nav-panel.is-active {
-    /* right: 2000px; */
-    /* max-width: 1500px; */
-    /* margin: 0 auto; */
-  }
+  /* .nav-panel.is-active {
+    right: 2000px;
+    max-width: 1500px;
+    margin: 0 auto;
+  } */
 
   /* .service-hero, */
   footer,
