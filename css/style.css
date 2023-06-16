@@ -665,17 +665,17 @@ small {
 
 @media screen and (max-width: 650px) {
   h6 {
+    font-weight: 400;
     font-size: 12px;
   }
 
   .logo a img {
     width: 40px;
   }
-  /* header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  } */
+
+  .about p {
+    margin: 8px 0 24px 0;
+  }
 
   .break {
     display: unset;
@@ -822,7 +822,7 @@ small {
   }
 
   .featured {
-    padding: 90px 5% 60px 5%;
+    padding: 100px 5% 60px 5%;
   }
 
   .footer {
