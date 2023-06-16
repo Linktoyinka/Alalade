@@ -664,6 +664,9 @@ small {
 
 
 @media screen and (max-width: 650px) {
+  h6 {
+    font-size: 12px;
+  }
 
   .logo a img {
     width: 40px;
@@ -784,6 +787,10 @@ small {
 
   .header-about {
     margin-top: 60px;
+  }
+
+  .project-tiles {
+    gap: 24px;
   }
 
   .tile {
