@@ -452,6 +452,10 @@ p.name {
   margin-top: 80px;
 }
 
+.pain-point h4, .result h4 {
+  padding-top: 20px;
+}
+
 .pain-tile {
   display:  flex;
   justify-content: space-between;
