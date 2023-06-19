@@ -841,8 +841,16 @@ small {
     width: 100%;
   }
 
+  /* .tile .left {
+    height: 160px;
+  } */
+
+  /* .tile .left img {
+    object-fit: cover;
+  } */
+
   .tile .right {
-    gap: 30px;
+    /* gap: 30px; */
     text-align: left;
     padding: 5px 5% 16px 5%;
   }
@@ -852,7 +860,7 @@ small {
   }
 
   .tags {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   .address {
