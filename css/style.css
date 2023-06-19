@@ -102,6 +102,10 @@ a {
   cursor: pointer;
 }
 
+.btn-bg {
+  background: var(--green) !important;
+}
+
 section, footer {
   padding: 32px 14% 32px 14%;
 }

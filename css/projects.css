@@ -39,6 +39,10 @@ h6, li {
   color: var(--white);
 }
 
+.high-fidelity>h4 {
+  color: var(--black);
+}
+
 .text h6, .faqs h6 {
   color: var(--black);
 }
