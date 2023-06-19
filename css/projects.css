@@ -189,6 +189,7 @@ figcaption span {
   place-content: center;
   height: 100px;
   /* line-height: 80px; */
+  margin-bottom: -90px;
 }
 #text {
   white-space: nowrap;
@@ -196,7 +197,7 @@ figcaption span {
 
 /* BREIF SECTION */
 .brief {
-  padding: 0px 5% 60px 14%;
+  padding: 60px 5% 60px 14%;
   background: #F3F3F3;
   margin-top: -60px;
   display: flex;
@@ -238,7 +239,6 @@ figcaption span {
 
 .research {  
   background: #F3F3F3;
-  margin-top: -130px;
 }
 
 /* result */
@@ -481,9 +481,10 @@ p.name {
 }
 
 /* IDEATION SECTION */
-.ideation, .usability, .high-fidelity {
+.ideation, .usability, .high-fidelity, .research {
   background: #F3F3F3;
-  margin-top: -130px;
+  padding: 60px 5% 60px 14%;
+  /* margin-top: -130px; */
 }
 
 .tab {
@@ -601,8 +602,16 @@ p.name {
 
   /* brief section */
   .brief {
-    padding: 0px 5% 60px 5%;
+    padding: 60px 5% 60px 5%;
     flex-wrap: wrap;
+  }
+
+  .ideation, .usability, .high-fidelity, .research {
+    padding: 60px 5% 60px 5%;
+  }
+
+  .bg-text {
+    margin-bottom: -105px;
   }
 
   .brief-1 {
@@ -639,19 +648,21 @@ p.name {
 
 @media screen and (max-width: 650px) {
   .bg-text {
-    padding: 0;
-    /* ma */
-    background: #F3F3F3;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.03);
-    font-size: 9.5vw;
-    overflow: hidden;
-    display: grid;
-    place-content: center;
-    height: 50px;
+    /* height: 50px; */
     /* margin-top: -55px; */
     /* line-height: 80px; */
+    margin-bottom: -110px;
   }
+
+  .brief {
+    padding: 0px 5% 60px 5%;
+    flex-wrap: wrap;
+  }
+
+  .ideation, .usability, .high-fidelity, .research {
+    padding: 0px 5% 60px 5%;
+  }
+
 
   .row {
     padding-top: 70px;
