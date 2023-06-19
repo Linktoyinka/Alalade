@@ -405,7 +405,7 @@ p.name {
 }
 
 .profile-sub {
-  margin: 80px 0;
+  margin: 80px 0 30px 0;
   display: flex;
   justify-content: space-between;
 }
