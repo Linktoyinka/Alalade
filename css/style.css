@@ -103,7 +103,7 @@ a {
 }
 
 section, footer {
-  padding: 60px 14% 60px 14%;
+  padding: 32px 14% 32px 14%;
 }
 
 
@@ -484,7 +484,7 @@ small {
 }
 
 .about-brief {  
-  padding: 80px 14% 0px 14%;
+  padding: 80px 14% 40px 14%;
 }
 
 .outline {
@@ -531,7 +531,7 @@ small {
   color: var(--grey);
 }
 
-.expertise-list p {
+.expertise-list p{
   display: flex;
   align-items: center;
   margin: 0;
@@ -609,7 +609,7 @@ small {
 
 @media screen and (max-width: 850px) {
   section, footer {
-    padding: 60px 9% 60px 9%;
+    padding: 32px 9% 32px 9%;
   }
   
   .header {
@@ -792,7 +792,7 @@ small {
   }
 
   section, footer {
-    padding: 60px 5% 60px 5%;
+    padding: 32px 5% 32px 5%;
   }
 
   .header-about {
@@ -814,6 +814,11 @@ small {
   .tile .right {
     gap: 30px;
     text-align: left;
+    padding: 5px 5% 16px 5%;
+  }
+
+  .tile .right h2 {
+    margin-bottom: 0px;
   }
 
   .tags {
@@ -909,6 +914,7 @@ small {
 
   .expertise-list p {
     justify-content: center;
+    margin: 0px;
   }
 
   .bx.bx-minus {
