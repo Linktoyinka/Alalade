@@ -896,12 +896,12 @@ small {
   }
 
   .footer h3 {
-    line-height: 36px;
+    line-height: 36px !important;
   }
 
   .footer hr {
-    width: 60%;
-    margin: 8px 0;
+    width: 60% !important;
+    margin: 8px 0 !important;
   }
 
   .socials {
@@ -909,7 +909,7 @@ small {
   }
   
   .footer .down img:nth-child(2) {
-    margin: 40px 0 0px 0;
+    margin: 40px 0 0px 0 !important;
   }
 
   .bx-map {
