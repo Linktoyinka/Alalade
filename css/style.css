@@ -122,8 +122,8 @@ header {
   background-color: var(--black);
   padding: 15px 14% 15px 14%;
   position: relative;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
 }
 
 .blur-header {

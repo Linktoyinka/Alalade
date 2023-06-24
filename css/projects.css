@@ -677,13 +677,9 @@ p.name {
   }
 
   .ideation, .usability, .high-fidelity, .research {
-    padding: 0px 5% 60px 5%;
+    padding: 1px 5% 60px 5%;
   }
 
-
-  .row {
-    padding-top: 70px;
-  }
 
   a {
     font-size: 14px;
@@ -860,6 +856,14 @@ p.name {
 }
 
 @media screen and (max-width: 650px) {
+  .header-about {
+    margin: 30px 0 10px 0;
+  }
+
+  .sub-title {
+    margin-top: 30px;
+  }
+
   .double-image {
     gap: 20px;
   }
@@ -922,24 +926,16 @@ p.name {
   background-repeat: no-repeat;
 }
 
-/* .fitpocket .right {
-  display: flex;
-  align-items: end;
-}
-
-.fitpocket .right img {
-  align-self: flex-end;
-} */
 
 .fitpocket-link {
   color: var(--fitpocket);
 }
 
-/* .fit-header {
-  background-color: #558c3521;  
+.fit-header {
+  background-color: #558c35a1;  
   backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(10px);
-} */
+  -webkit-backdrop-filter: blur(1px);
+}
 
 
 @media screen and (max-width: 650px) {
@@ -961,7 +957,10 @@ p.name {
 }
 
 .plubo-header {
-  background: var(--plubo);
+  /* background: var(--plubo); */
+  background-color: #642ca9a1;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 .plubo-color {
@@ -989,7 +988,10 @@ ul.plubo-color li::marker {
 }
 
 .kweek-header {
-  background: var(--kweek);
+  /* background: var(--kweek); */
+  background-color: #075158a1;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 ul.kweek-color li::marker {
@@ -1011,8 +1013,13 @@ ul.kweek-color li::marker {
 }
 
 .make-header {
-  background: var(--make-known);
+  /* background: var(--make-known); */
+  background-color: #006edca1;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(1px);
 }
+
+
 
 @media screen and (max-width: 650px) {
   .makeknown {
@@ -1037,12 +1044,15 @@ ul.kweek-color li::marker {
 
 
 .werk-header {
-  background: var(--werk);
+  background: rgba(255, 255, 255, 0.452);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 @media screen and (max-width: 650px) {
   .werk {
-    background-position: right center;
+    background-position: 80%;
+    background-size: fill;
   }
 
   

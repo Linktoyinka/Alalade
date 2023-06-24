@@ -140,7 +140,7 @@
     </section>   
 
 
-    <section class="high-fidelity row">
+    <section class="high-fidelity">
       <h2 class="header-about">
         Design
       </h2>
@@ -267,6 +267,10 @@
     window.addEventListener("scroll", function() {
       var header = document.querySelector("header");
       header.classList.toggle("werk-header", window.scrollY > 0);
+
+      // var logoImage = document.getElementById('logo');
+      // logoImage.src = '../img/logo.svg';
     });
+    
   </script>
 </html>
