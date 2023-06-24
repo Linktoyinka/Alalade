@@ -122,12 +122,10 @@ header {
   background-color: var(--black);
   padding: 15px 14% 15px 14%;
   position: relative;
-  /* backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); */
 }
 
 .blur-header {
-  background-color: #00000083 !important;
+  background-color: #000000c4 !important;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
@@ -845,15 +843,9 @@ small {
     width: 100%;
   }
 
-  /* .tile .left {
-    height: 160px;
-  } */
-
-  /* .tile .left img {
-    object-fit: contain;
-    height: 160px;
-    overflow: hidden;
-  } */
+  .content-hover {
+    display: none !important; 
+  }
 
   .tile .right {
     /* gap: 30px; */
