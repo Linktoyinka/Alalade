@@ -504,9 +504,9 @@ p.name {
   /* margin-top: -130px; */
 }
 
-.tab {
+/* .tab {
   margin: 80px 0;
-}
+} */
 
 /* USABILITY SECTION */
 .usablitlty-tile {
@@ -677,7 +677,7 @@ p.name {
   }
 
   .ideation, .usability, .high-fidelity, .research {
-    padding: 1px 5% 60px 5%;
+    padding: 1px 5% 20px 5%;
   }
 
 
@@ -905,6 +905,10 @@ p.name {
   .project-hero {
     /* height: unset !important; */
   }
+
+  .single-image img {
+    margin: 10px 0;
+  }
 }
 
 /* .footer hr {
@@ -1081,5 +1085,20 @@ ul.kweek-color li::marker {
   .bg-text {
     font-size: 900%;
     /* margin-bottom: -200px; */
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  
+  
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  
+  h4 {
+    font-size: 20px;
   }
 }
