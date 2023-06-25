@@ -98,6 +98,7 @@ hr {
   margin: 20px 0;
   display: flex;
   justify-content: space-between;
+  text-align: center;
   /* flex-wrap: wrap; */
 }
 
@@ -239,6 +240,7 @@ figcaption span {
 
 .brief .left, .brief-1 .left {
   width: 53%;
+  padding-bottom: 30px;
 }
 
 .brief .right, .brief-1 .right {
@@ -525,11 +527,22 @@ p.name {
   font-weight: 700;
 }
 
-/* high-fidelity */
-/* .high-fidelity .double-image>* {
-  border: 8px solid black;
-  border-radius: 10px; */
-/* } */
+.usablitlty-tile .right .double-image {
+  position: relative;
+}
+
+.indicator {
+  position: absolute;
+  top: 18%;
+  width: 57%;
+}
+
+.indicator-text {
+  color: #202020;
+  position: absolute;
+  top: 15%;
+  left: 59%;
+}
 
 .shadow {  
   border: 8px solid black;
@@ -910,6 +923,36 @@ p.name {
 
   .single-image img {
     margin: 10px 0;
+  }
+
+  .usablitlty-tile {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .usablitlty-tile>* {
+    width: 100%;
+  }
+
+  .usablitlty-tile .double-image {
+    flex-wrap: wrap;
+  }
+  
+  .usablitlty-tile .double-image>* {
+    width: 46%;
+  }
+  
+  .usablitlty-tile .double-image>* img {
+    width: 100%;
+  }
+
+  .indicator {
+    width: 55% !important;
+  }
+
+  .indicator-text {
+    top: 10%;
+    left: 57%;
   }
 }
 
