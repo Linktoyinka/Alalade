@@ -61,7 +61,7 @@ h4 {
   margin-top: 80px;
 }
 
-.usability .sub-title {
+.findings {
   margin-top: 0;
 }
 
@@ -145,7 +145,7 @@ figcaption span {
   padding-left: 14%;
   padding-bottom: 0;
   margin-top: -85px;
-  /* height: 600px; */
+  height: 600px;
   display: flex;
   justify-content: space-between;
   /* align-items: end; */
@@ -159,13 +159,15 @@ figcaption span {
 
 .project-hero .right {
   width: 40%;
+  align-self: flex-end;
   /* display: flex; */
 }
 
 .project-hero .right img {
   width: 100%;
-  height: 100%;
-  /* max-height: fit-content; */
+  /* height: 100%; */
+
+  max-height: fit-content;
 }
 
 .down {
@@ -668,7 +670,7 @@ p.name {
     /* height: 50px; */
     /* margin-top: -55px; */
     /* line-height: 80px; */
-    margin-bottom: -110px;
+    margin-bottom: -85px;
   }
 
   .brief, .brief-1 {
@@ -903,7 +905,7 @@ p.name {
   }
 
   .project-hero {
-    /* height: unset !important; */
+    height: unset;
   }
 
   .single-image img {
@@ -1098,7 +1100,11 @@ ul.kweek-color li::marker {
   }
 
   
-  h4 {
+  h4, .screens {
     font-size: 20px;
+  }
+  
+  h4.screens {
+    font-size: 14px;
   }
 }

@@ -336,9 +336,13 @@ nav {
 .project-tiles {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 40px;
 
   margin-bottom: 50px;
+}
+
+.featured.about p {
+  margin-bottom: 0px;
 }
 .project-tiles .tile {
   position: relative;
@@ -495,7 +499,7 @@ small {
 }
 
 .about-hero .left img {
-  width: 100%;
+  width: 80%;
 }
 
 .about-hero .right {
@@ -978,6 +982,17 @@ small {
 
   .outline {
     text-align: center;
+  }
+
+
+  /* new codes */
+  section.abt-more {
+    padding-top: 0px;
+    /* padding-bottom: 0px; */
+  }
+  section.abt-more-1 {
+    padding: 30px 5% 10px 5%;
+    /* padding-bottom: 0px; */
   }
 }
 
