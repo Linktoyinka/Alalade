@@ -602,7 +602,8 @@ p.name {
 .inverted-img {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   margin-top: 30px;
 }
 
@@ -1155,7 +1156,7 @@ ul.kweek-color li::marker {
 
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
   .project-hero {
     padding-right: 100px;
     padding-left: 140px;

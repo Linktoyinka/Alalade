@@ -362,12 +362,9 @@ nav {
   transition: 1s; 
 }
 
-.content-hover a {
-  color: white;
-}
 
 .tile:hover .content-hover {
-  display: grid;
+  display: flex;
   place-content: center;
   background-color: #0a0a0a79;
 
