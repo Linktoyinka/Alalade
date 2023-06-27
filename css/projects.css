@@ -254,6 +254,7 @@ figcaption span {
 
 .brief .right img, .brief-1 .right img {
   width: 100%;
+  object-fit: contain;
 }
 
 .brief .left p, .brief-1 .left p {
@@ -587,15 +588,6 @@ p.name {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
-}
-
-.before-footer {
-  /* background: url(/img/indicator.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-  padding: 20px; */
 }
 
 .footer-links {
@@ -1218,5 +1210,11 @@ ul.kweek-color li::marker {
   
   .project-hero {
     height: unset;
+  }
+
+  .brief .left, .brief-1 .left {
+    width: 53%;
+    padding-bottom: 30px;
+    align-self: center;
   }
 }
