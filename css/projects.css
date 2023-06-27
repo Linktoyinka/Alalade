@@ -553,7 +553,7 @@ p.name {
 .shadow {  
   border: 8px solid black;
   border-radius: 10px;
-  box-shadow: 10px 20px 22px 3px rgba(0, 0, 0, 0.308);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.308);
 }
 
 .image-tile {
@@ -700,8 +700,8 @@ p.name {
 
   .shadow {  
     border: 6px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 20px 22px 3px rgba(0, 0, 0, 0.205);
+    border-radius: 35px;
+    /* box-shadow: 10px 20px 22px 3px rgba(0, 0, 0, 0.096); */
   }
 }
 
@@ -1162,7 +1162,7 @@ ul.kweek-color li::marker {
     padding-left: 140px;
   }
 
-  .brief {
+  .brief, .brief-1 {
     padding: 90px 50px 60px 140px;
   }
 
@@ -1175,6 +1175,10 @@ ul.kweek-color li::marker {
   .bg-text {
     font-size: 900%;
     /* margin-bottom: -200px; */
+  }
+
+  .project-hero {
+    height: unset;
   }
 }
 
