@@ -1213,3 +1213,10 @@ ul.kweek-color li::marker {
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  
+  .project-hero {
+    height: unset;
+  }
+}
