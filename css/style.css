@@ -1098,3 +1098,10 @@ small {
     padding: 10px 50px;
   } */
 }
+
+@media screen and (min-width: 1550px) {
+  .hero .left {
+    align-self: center;
+  }
+  
+}
