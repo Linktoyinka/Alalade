@@ -161,8 +161,12 @@ figcaption span {
 .project-hero .right {
   width: 40%;
   align-self: flex-end;
-  /* display: flex; */
+  display: flex;
 }
+
+/* .fitright {
+  display: flex;
+} */
 
 .project-hero .right img {
   width: 100%;
@@ -518,8 +522,12 @@ p.name {
   justify-content: space-between;
 }
 
-.usablitlty-tile>* {
+.usablitlty-tile .left, .usablitlty-tile .right {
   width: 48%;
+}
+
+.usability-line {
+  border-left: 2px dashed #E6E6E6;
 }
 
 .usablitlty-tile>* .double-image p {
@@ -960,8 +968,13 @@ p.name {
     gap: 20px;
   }
   
-  .usablitlty-tile>* {
+  .usablitlty-tile .left, .usability .right {
     width: 100%;
+  }
+
+  .usability-line {
+    border-bottom: 2px dashed #E6E6E6;
+    border-left: none;
   }
 
   .usablitlty-tile .double-image {
