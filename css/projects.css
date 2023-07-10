@@ -1217,4 +1217,8 @@ ul.kweek-color li::marker {
     padding-bottom: 30px;
     align-self: center;
   }
+
+  .bg-text {
+    height: 135px;
+  }
 }
