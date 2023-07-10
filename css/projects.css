@@ -438,15 +438,18 @@ p.name {
 }
 
 .profile-sub .left {
-  width: 59%;
+  width: 55%;
 }
 
 .profile-sub .right {
-  width: 38%;
+  width: 35%;
 }
 
 .profile-sub .right img {
   width: 100%;
+  max-height: fit-content;
+  /* height: 100%;
+  object-fit: cover; */
 }
 
 .bio {
@@ -1220,5 +1223,9 @@ ul.kweek-color li::marker {
 
   .bg-text {
     height: 135px;
+  }
+
+  .profile-sub .right img {
+    width: max-content;
   }
 }
