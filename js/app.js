@@ -27,7 +27,7 @@ main_menu.addEventListener("click", function () {
     if (anchorElement.textContent === 'About Me') {
       anchorElement.textContent = 'Download CV';
     } else {
-      anchorElement.textContent = 'About Me';
+      anchorElement.textContent = 'Download CV';
     }
   
 });

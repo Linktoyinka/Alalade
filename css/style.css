@@ -512,8 +512,9 @@ small {
   color: var(--off-black);
 }
 
-.about-hero .right h6 {
-  margin-top: -35px;
+.about-hero .right p {
+  margin-top: -30px;
+  color: white;
 }
 
 .about-brief {  
@@ -553,6 +554,7 @@ small {
 
 .expertise {
   margin-top: 43px;
+  margin-bottom: 100px;
 
   display: flex;
   justify-content: space-between;
@@ -835,6 +837,7 @@ small {
   .project-tiles {
     gap: 24px;
     margin-bottom: 0px;
+    margin-top: 20px;
   }
 
   .tile {
@@ -962,6 +965,7 @@ small {
   .expertise {
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 40px;
   }
 
   .expertise >* {
@@ -1072,21 +1076,7 @@ small {
     padding: 35px 150px;
     max-height: 900px;
     display: inline-flex;
-    /* width: 100% !important; */
-    /* overflow: auto; */
-    /* direction: ltr; */
-    /* min-width: 1500px; */
-    /* width: min-content; */
-    /* margin-right: auto;
-    margin-left: auto; */
-
   }
-
-  /* .nav-panel.is-active {
-    right: 2000px;
-    max-width: 1500px;
-    margin: 0 auto;
-  } */
 
   /* .service-hero, */
   footer,
@@ -1094,13 +1084,14 @@ small {
     max-width: unset;
   }
 
-  /* .header {
-    padding: 10px 50px;
-  } */
 }
 
 @media screen and (min-width: 1550px) {
   .hero .left {
+    align-self: center;
+  }
+
+  .about-hero .right {
     align-self: center;
   }
   
