@@ -242,12 +242,28 @@ figcaption span {
   justify-content: space-between;
 }
 
-.brief .left, .brief-1 .left {
+.brief .left {
+  width: 53%;
+  /* padding-bottom: 30px; */
+}
+
+.brief-1 .left {
   width: 53%;
   padding-bottom: 30px;
 }
 
-.brief .right, .brief-1 .right {
+.brief .right {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.brief-1 .right {
   width: 45%;
   text-align: center;
 }
@@ -1033,7 +1049,7 @@ p.name {
 }
 
 .fit-header {
-  background-color: #558c35a1;  
+  background-color: #558c3513;  
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
