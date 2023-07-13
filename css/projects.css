@@ -126,7 +126,11 @@ figcaption span {
 }
 
 .project-menu {
-  background-color: rgba(0, 0, 0, 0.411);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.project-menu-2 {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -459,6 +463,7 @@ p.name {
 
 .profile-sub .right {
   width: 35%;
+  text-align: right;
 }
 
 .profile-sub .right img {
@@ -1244,4 +1249,6 @@ ul.kweek-color li::marker {
   .profile-sub .right img {
     width: max-content;
   }
+
+  
 }

@@ -338,12 +338,16 @@ nav {
   flex-direction: column;
   gap: 40px;
 
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.featured {
+  padding: 100px 14% 70px 14%;
 }
 
 
 .featured.about p {
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
 }
 .project-tiles .tile {
   position: relative;
