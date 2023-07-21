@@ -61,7 +61,6 @@ h4 {
 h6 {
   font-size: 16px;
   font-weight: 500;
-  /* font-weight: 400; */
   line-height: 24px;
   letter-spacing: 0.75px;
   color: var(--white);
@@ -195,7 +194,8 @@ nav {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 7%;
 }
 
 .nav-panel.is-active {
@@ -282,13 +282,11 @@ nav {
   padding: 99px 14% 60px 14%;
   background: var(--black) url(/img/m-bg.svg);
   background-position: center;
-  /* background-size: contain; */
   background-repeat: no-repeat;
 
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-
 }
 
 .hero .left {
@@ -337,8 +335,6 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 40px;
-
-  /* margin-bottom: 50px; */
 }
 
 .featured {
@@ -728,8 +724,6 @@ small {
     margin: 8px 0 24px 0;
   }
 
-  
-
   .nav-panel .top h6 {
     font-size: 14px;
     font-weight: 400;
@@ -740,12 +734,16 @@ small {
     text-align: center;
     gap: 15px;    
     justify-content: unset;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 
   .nav-panel .down {
     flex-wrap: wrap;
     gap: 15px;
+  }
+
+  .nav-panel .down h4{
+    font-size: 16px;
   }
   
   .nav-panel .down>* {
@@ -857,7 +855,6 @@ small {
   }
 
   .tile .right {
-    /* gap: 30px; */
     text-align: left;
     padding: 5px 5% 16px 5%;
   }
@@ -998,42 +995,10 @@ small {
   }
   section.abt-more-1 {
     padding: 30px 5% 10px 5%;
-    /* padding-bottom: 0px; */
   }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SCROLL BAR */
-/* ::-webkit-scrollbar {
-  width: 10px;
-  background-color: var(--black);
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: var(--grey);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #44494b;
-} */
 
 
 
@@ -1042,7 +1007,6 @@ small {
   header,
   .footer,
   .header {
-    /* width: 100%; */
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
