@@ -2,6 +2,10 @@ const main_menu = document.querySelector(".menu");
 const hamburger = document.querySelector(".hamburger");
 const mobile_menu = document.querySelector(".nav-panel");
 const body = document.querySelector(".body");
+const hide = document.querySelector(".hide");
+const aboutBtn = document.querySelector(".about-btn");
+const downloadBtn = document.querySelector(".download-btn");
+
 
 main_menu.addEventListener("click", function () {
   hamburger.classList.toggle("is-active");
@@ -10,25 +14,8 @@ main_menu.addEventListener("click", function () {
 
 
   // About menu button switch
-    // Get the anchor element
-    const anchorElement = document.getElementById('cv');
-
-    // change background color
-    anchorElement.classList.toggle("btn-bg")
-  
-    // Toggle the href attribute
-    if (anchorElement.href = '../about.html') {
-      anchorElement.href = '../new-about.html';
-    } else {
-      anchorElement.href = '../about.html';
-    }
-  
-    // Toggle the text content
-    if (anchorElement.textContent === 'About Me') {
-      anchorElement.textContent = 'Download CV';
-    } else {
-      anchorElement.textContent = 'About Me';
-    }
+    aboutBtn.classList.toggle("hide");
+    downloadBtn.classList.toggle("hide");
   
 });
 

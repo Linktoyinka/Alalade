@@ -169,6 +169,15 @@ header {
 }
 /* hambuger ends */
 
+/* about and download button toggle */
+.hide {
+  display: none;
+}
+
+/* .show {
+  display: unset;
+} */
+
 nav {
   display: flex;
   justify-content: space-between;
