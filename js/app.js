@@ -14,6 +14,12 @@ main_menu.addEventListener("click", function () {
 
 
   // About menu button switch
+    // Get the button
+    const button = document.getElementById('cv');
+
+    // change background color
+    button.classList.toggle("btn-bg")
+
     aboutBtn.classList.toggle("hide");
     downloadBtn.classList.toggle("hide");
   
