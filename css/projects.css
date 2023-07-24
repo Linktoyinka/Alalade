@@ -161,6 +161,10 @@ figcaption span {
   align-self: center;
 }
 
+.project-hero .left .down {
+  margin-top: 48px;
+}
+
 .project-hero .right {
   width: 45%;
   align-self: flex-end;
@@ -169,10 +173,6 @@ figcaption span {
 
 .project-hero .right img {
   width: 100%;
-}
-
-.down {
-  margin-top: 48px;
 }
 
 .project-hero .left .down {
