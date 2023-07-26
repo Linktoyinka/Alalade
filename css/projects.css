@@ -506,11 +506,27 @@ p.name {
   width: 30%;
 }
 
+.pain-tile .card div {
+  height: 150px;
+}
+
+@media screen and (max-width: 1045px) {
+  .pain-tile .card div {
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .pain-tile .card div {
+    height: unset;
+  }
+}
+
 .pain-tile .card h5:first-child {
   margin-bottom: 16px;
 }
 
-.pain-tile .card h5:nth-child(3) {
+.pain-tile .card h5:nth-child(2) {
   margin: 8px 0;
   color: #558C35;
 }
@@ -1238,5 +1254,7 @@ ul.kweek-color li::marker {
     width: max-content;
   }
 
-  
+  .pain-tile .card div {
+    height: 115px;
+  }
 }
