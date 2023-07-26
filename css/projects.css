@@ -1180,9 +1180,13 @@ ul.kweek-color li::marker {
 
 
 .werk-header {
-  background-color: rgba(0, 0, 0, 0.527);
+  background-color: rgba(0, 0, 0, 0.397);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
+}
+
+.werk-menu-bg {
+  background: black;
 }
 
 @media screen and (max-width: 650px) {

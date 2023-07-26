@@ -32,12 +32,16 @@ main_menu.addEventListener("click", function () {
 
 const werk = document.querySelector(".werk-logo");
 const werkSecond = document.querySelector(".werk-logo-2");
+const werkMenu = document.querySelector(".werk-menu");
+const werkMenu2 = document.querySelector(".werk-menu2");
 
 window.addEventListener("scroll", function() {
   var header = document.querySelector(".header");
   header.classList.toggle("blur-header", window.scrollY > 50);
 
   werk.classList.toggle("hide", window.scrollY > 50);
+  werkMenu.classList.toggle("werk-menu-bg", window.scrollY > 50);
+  werkMenu2.classList.toggle("werk-menu-bg", window.scrollY > 50);
   werkSecond.classList.toggle("hide", window.scrollY < 50);
 });
 
