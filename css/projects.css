@@ -1029,7 +1029,7 @@ p.name {
 }
 
 .fit-header {
-  background-color: #558c3513;  
+  background-color: rgba(0, 0, 0, 0.527);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
@@ -1058,7 +1058,7 @@ p.name {
 }
 
 .plubo-header {
-  background-color: #558c3513;  
+  background-color: rgba(0, 0, 0, 0.527);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
@@ -1090,7 +1090,7 @@ ul.plubo-color li::marker {
 }
 
 .kweek-header {
-  background-color: #558c3513;  
+  background-color: rgba(0, 0, 0, 0.527);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
@@ -1118,7 +1118,7 @@ ul.kweek-color li::marker {
 }
 
 .make-header {
-  background-color: #558c3513;  
+  background-color: rgba(0, 0, 0, 0.527);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
@@ -1156,7 +1156,7 @@ ul.kweek-color li::marker {
 
 
 .werk-header {
-  background-color: #558c3513;  
+  background-color: rgba(0, 0, 0, 0.527);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }

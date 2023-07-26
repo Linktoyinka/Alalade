@@ -5,6 +5,7 @@ const body = document.querySelector(".body");
 const hide = document.querySelector(".hide");
 const aboutBtn = document.querySelector(".about-btn");
 const downloadBtn = document.querySelector(".download-btn");
+const header = document.querySelector(".header");
 
 
 main_menu.addEventListener("click", function () {
@@ -22,6 +23,9 @@ main_menu.addEventListener("click", function () {
 
     aboutBtn.classList.toggle("hide");
     downloadBtn.classList.toggle("hide");
+
+
+    header.classList.toggle("header-bg");
   
 });
 

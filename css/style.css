@@ -123,8 +123,14 @@ header {
   position: relative;
 }
 
+.header-bg {
+  background: var(--black) !important;
+  backdrop-filter:unset !important;
+  -webkit-backdrop-filter: unset !important;
+}
+
 .blur-header {
-  background-color: #000000c4 !important;
+  background-color: #000000c4;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(1px);
 }
