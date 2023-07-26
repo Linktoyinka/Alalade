@@ -30,8 +30,14 @@ main_menu.addEventListener("click", function () {
 });
 
 
+const werk = document.querySelector(".werk-logo");
+const werkSecond = document.querySelector(".werk-logo-2");
+
 window.addEventListener("scroll", function() {
   var header = document.querySelector(".header");
   header.classList.toggle("blur-header", window.scrollY > 50);
+
+  werk.classList.toggle("hide", window.scrollY > 50);
+  werkSecond.classList.toggle("hide", window.scrollY < 50);
 });
 
