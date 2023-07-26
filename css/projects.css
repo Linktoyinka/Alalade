@@ -1094,6 +1094,10 @@ ul.plubo-color li::marker {
   color: var(--kweek);
 }
 
+.kweek .right img {
+  width: 85%;
+}
+
 .kweek-brief .right a{
   margin-top: 20px;
 }
@@ -1113,6 +1117,10 @@ ul.plubo-color li::marker {
 
 ul.kweek-color li::marker {
   color: var(--kweek);
+}
+
+.kweek-brief .right img {
+  width: 70%;
 }
 
 
@@ -1256,5 +1264,9 @@ ul.kweek-color li::marker {
 
   .pain-tile .card div {
     height: 115px;
+  }
+
+  .kweek .right img {
+    width: 75%;
   }
 }
