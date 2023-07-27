@@ -553,7 +553,7 @@ p.name {
 }
 
 .ind {
-  margin-top: 53px;
+  /* margin-top: 53px; */
   /* pa */
 }
 
@@ -635,9 +635,9 @@ p.name {
 
 
 @media screen and (max-width: 850px) {
-  .ind {
+  /* .ind {
     margin-top: 43px;
-  }
+  } */
 
   a {
     font-size: 14px;
@@ -971,9 +971,9 @@ p.name {
     left: 57%;
   }
 
-  .ind {
+  /* .ind {
     margin-top: 20px;
-  }
+  } */
 
   .inverted-img {
     margin-top: 30px;
@@ -1196,10 +1196,6 @@ ul.kweek-color li::marker {
   .bg-text {
     font-size: 900%;
   }
-
-  .project-hero {
-    height: unset;
-  }
 }
 
 
@@ -1224,7 +1220,7 @@ ul.kweek-color li::marker {
 @media screen and (min-width: 1500px) {
   
   .project-hero {
-    height: unset;
+    height: 700px;
   }
 
   .brief .left, .brief-1 .left {
