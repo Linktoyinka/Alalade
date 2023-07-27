@@ -553,8 +553,19 @@ p.name {
 }
 
 .ind {
-  /* margin-top: 53px; */
-  /* pa */
+  margin-top: 53px;
+}
+
+@media screen and (min-width: 1380px) {
+  .ind {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1670px) {
+  .ind {
+    margin-top: 50px;
+  }
 }
 
 .indicator {
@@ -635,9 +646,9 @@ p.name {
 
 
 @media screen and (max-width: 850px) {
-  /* .ind {
+  .ind {
     margin-top: 43px;
-  } */
+  }
 
   a {
     font-size: 14px;
@@ -971,9 +982,9 @@ p.name {
     left: 57%;
   }
 
-  /* .ind {
+  .ind {
     margin-top: 20px;
-  } */
+  }
 
   .inverted-img {
     margin-top: 30px;
