@@ -344,22 +344,6 @@ figcaption span {
   border-radius: 24px;
 }
 
-.special-list li::marker {
-  color: #558C35;
-  font-size: 20px;
-}
-
-.special-list {
-  margin-left: 10px;
-}
-
-.special-list li {
-  color: var(--black);
-  line-height: 24px;
-  letter-spacing: 0.75px;
-  margin: 10px;
-}
-
 .map-tile {
   display: flex;
   justify-content: space-between;
@@ -412,67 +396,8 @@ hr.up {
   width: 100%;
 }
 
-p.name {  
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 75px;
-}
-
-.detail {
-  color: #A4A4A4;
-}
-
-.bio-detail {
-  color: var(--black);
-}
-
 .black {
   color: var(--black);
-}
-
-.profile-sub {
-  margin: 80px 0 30px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.profile-sub .left {
-  width: 55%;
-}
-
-.profile-sub .right {
-  width: 35%;
-  text-align: right;
-}
-
-.profile-sub .right img {
-  width: 100%;
-  max-height: fit-content;
-}
-
-.bio {
-  margin: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 28px;
-}
-
-.bio .card {
-  width: 40%;
-}
-
-.points {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.points>* {
-  width: 48%;
-}
-
-.points .special-list {
-  margin-left: -10px;
 }
 
 /* PAIN POINT */
@@ -706,10 +631,6 @@ p.name {
     width: 100%;
   }
 
-  .points .special-list {
-    margin-left: 10px;
-  }
-
   .result-tile .card .img {
     width: 50%;
     position: relative;
@@ -793,61 +714,6 @@ p.name {
   
   .map hr, hr.up {
     display: none;
-  }
-
-  /* persona */
-  .profile-sub {
-    flex-wrap: wrap;
-    margin: 80px 0 20px 0;
-  }
-  
-  .profile-sub .left {
-    width: 100%;
-    order: 2;
-  }
-  
-  .profile-sub .right {
-    width: 100%;
-  }
-  
-  .profile-sub .right img {
-    width: 40%;
-  }
-
-  p.name {
-    font-size: 32px;
-    line-height: 40px;
-    margin-top: 20px;
-  }
-
-  .bio {
-    gap: 10px;
-    margin: 24px 0;
-  }
-
-  .bio .card {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 9px;
-  }
-
-  .bio .card img {
-    width: 20px;
-  }
-
-  .detail {
-    display: none;
-  }
-
-  .points {
-    margin-top: 40px;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  .points>* {
-    width: 100%;
   }
 
 
