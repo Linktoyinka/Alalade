@@ -344,6 +344,22 @@ figcaption span {
   border-radius: 24px;
 }
 
+.special-list li::marker {
+  color: #558C35;
+  font-size: 20px;
+}
+
+.special-list {
+  margin-left: 10px;
+}
+
+.special-list li {
+  color: var(--black);
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  margin: 10px;
+}
+
 .map-tile {
   display: flex;
   justify-content: space-between;
@@ -629,6 +645,10 @@ hr.up {
   
   .brief .left, .brief .right, .brief-1 .left, .brief-1 .right {
     width: 100%;
+  }
+
+  .points .special-list {
+    margin-left: 10px;
   }
 
   .result-tile .card .img {
